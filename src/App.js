@@ -3,11 +3,9 @@ import './App.css';
 
 const App = () => {
   const navItems = ['Меню', 'Товари', 'Книги', 'Дизайн'];
-  const products = [
-    { id: 1, title: 'ПОДУШКИ', subtitle: 'спальня кімната вітальня', price: '12$', tag: '20%' },
-    { id: 2, title: 'КОВДРА', subtitle: 'спальня кімната вітальня', price: '30$', tag: '30%' },
-    { id: 3, title: 'ЛІЖКО', subtitle: 'спальня кімната вітальня', price: '414$', tag: '10%' },
-  ];
+  const products = [{ id: 1, title: 'ПОДУШКИ', subtitle: 'спальня кімната вітальня', price: '12$', tag: '20%' },
+                    { id: 2, title: 'КОВДРА', subtitle: 'спальня кімната вітальня', price: '30$', tag: '30%' },
+                    { id: 3, title: 'ЛІЖКО', subtitle: 'спальня кімната вітальня', price: '414$', tag: '10%' },];
   const hashtags = ['#вседлядому', '#швидкотазручно', '#buy now'];
 
   return (
@@ -28,7 +26,7 @@ const App = () => {
         </div>
         <div className="user-actions">
           <button className="action-button"> Київ</button>
-          <button className="action-button">Увійти В Систему</button>
+          <button className="action-button">Привіт! Увійдіть В Систему</button>
           <button className="icon-button"></button>
           <button className="icon-button"></button>
         </div>
