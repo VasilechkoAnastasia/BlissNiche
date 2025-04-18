@@ -15,10 +15,15 @@ body {
   background-image: 1921px 1026px;
 }
 
+.wrap {
+  width: 1480px;
+}
+
 .app {
-  max-width: 1200px;
+  width: 1921px;
   margin: 0 auto;
-  padding: 0 20px;
+  display: flex;
+  justify-content: center;
 }
 
 .banner {
@@ -76,7 +81,6 @@ nav {
 }
 
 .user-actions {
-  display: flex;
   gap: 16px;
   align-items: center;
 }
@@ -89,6 +93,8 @@ nav {
   align-items: center;
   gap: 4px;
   font-size: 14px;
+  text-decoration: none;
+  color: #5F5F5F;
 }
 
 .icon-button {

@@ -2,73 +2,80 @@ import React from 'react';
 import './App.css';
 
 const App = () => {
-  const navItems = ['Меню', 'Товари', 'Книги', 'Дизайн'];
+  // const navItems = ['Меню', 'Товари', 'Книги', 'Дизайн'];
   const products = [{ id: 1, title: 'ПОДУШКИ', subtitle: 'спальня кімната вітальня', price: '12$', tag: '20%' },
-                    { id: 2, title: 'КОВДРА', subtitle: 'спальня кімната вітальня', price: '30$', tag: '30%' },
-                    { id: 3, title: 'ЛІЖКО', subtitle: 'спальня кімната вітальня', price: '414$', tag: '10%' },];
+  { id: 2, title: 'КОВДРА', subtitle: 'спальня кімната вітальня', price: '30$', tag: '30%' },
+  { id: 3, title: 'ЛІЖКО', subtitle: 'спальня кімната вітальня', price: '414$', tag: '10%' },];
   const hashtags = ['#вседлядому', '#швидкотазручно', '#buy now'];
 
   return (
     <div className="app">
-       {/* Top Banner */}
+      {/* Top Banner */}
       <div className="strip">
         <p className="text">#buy now #вседлядому #швидкотазручно #buy now #вседлядому #швидкотазручно #buy now #вседлядому #швидкотазручно #buy now #вседлядому #швидкотазручно</p>
       </div>
-      <header>
-        <nav>
+      <div className="wrap">
+        <div className="user-actions">
+          <nav>
+            <a className="action-button" href="#">☰<br></br>Меню</a>
+            <img src="./Union.png" />
+            <a className="action-button" href="#"> Товари</a>
+            <a className="action-button" href="#"> Книги</a>
+            <a className="action-button" href="#"> Дизайн</a>
+            <a className="action-button" href="#"><img src="./uil_user.png" /> Київ</a>
+            <a className="action-button" href="#"><img src="./uil_user_profile.png" /> Привіт! Увійдіть В Систему</a>
+            <a className="action-button" href="#"><img src="./basket_for_shopping.png" /><img src="./like.png" /></a>
+          </nav>
+        </div>
+        <header>
+          {/* <nav>
           {navItems.map((item, index) => (
             <span key={index} className={`nav-item ${index === 0 ? 'active' : ''}`}>{item}</span>
           ))}
-        </nav>
-        <div className="search-bar">
-          <span className="search-icon"></span>
-          <input type="text" placeholder="Пошук" />
-        </div>
-        <div className="user-actions">
-          <button className="action-button"> Київ</button>
-          <button className="action-button">Привіт! Увійдіть В Систему</button>
-          <button className="icon-button"></button>
-          <button className="icon-button"></button>
-        </div>
-      </header>
-
-      <main>
-        <div className="content">
-          <div className="left-content">
-            <h1>ВСЕ ДЛЯ ДОМУ</h1>
-            <div className="cta-buttons">
-              <button className="cta-primary">СТВОРИТИ АКАУНТ ТА ПОЧАТИ!</button>
-              <button className="cta-secondary">
-                КАТАЛОГ &#9662;
-              </button>
-            </div>
-            <div className="product-cards">
-              {products.map((product) => (
-                <div key={product.id} className="product-card">
-                  <div className="product-image">
-                    <span className="product-tag">{product.tag}</span>
-                  </div>
-                  <div className="product-info">
-                    <h3>{product.title}</h3>
-                    <p>{product.subtitle}</p>
-                    <span className="product-price">{product.price}</span>
-                  </div>
-                </div>
-              ))}
-            </div>
-            <p className="promo-text">
-              ЛОВИ МОМЕНТ! Знижки до <strong>60%</strong> на вибрані категорії товарів!
-            </p>
+        </nav> */}
+          <div className="search-bar">
+            <img src="./Group.png" className="search-icon" />
+            {/* <span className="search-icon"></span> */}
+            <input type="text" placeholder="Пошук" />
           </div>
-          <div className="right-content">
-            {/* Hero image will be set as background in CSS */}
+        </header>
+        <main>
+          <div className="content">
+            <div className="left-content">
+              <h1>ВСЕ ДЛЯ ДОМУ</h1>
+              <div className="cta-buttons">
+                <button className="cta-primary">СТВОРИТИ АКАУНТ ТА ПОЧАТИ!</button>
+                <button className="cta-secondary">
+                  КАТАЛОГ &#9662;
+                </button>
+              </div>
+              <div className="product-cards">
+                {products.map((product) => (
+                  <div key={product.id} className="product-card">
+                    <div className="product-image">
+                      <span className="product-tag">{product.tag}</span>
+                    </div>
+                    <div className="product-info">
+                      <h3>{product.title}</h3>
+                      <p>{product.subtitle}</p>
+                      <span className="product-price">{product.price}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+              <p className="promo-text">
+                ЛОВИ МОМЕНТ! Знижки до <strong>60%</strong> на вибрані категорії товарів!
+              </p>
+            </div>
+            <div className="right-content">
+              {/* Hero image will be set as background in CSS */}
+            </div>
           </div>
-        </div>
-      </main>
+        </main>
+      </div>
     </div>
   );
 };
-
 export default App;
 
 
