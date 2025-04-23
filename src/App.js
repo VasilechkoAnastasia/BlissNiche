@@ -3,9 +3,9 @@ import './App.css';
 
 const App = () => {
   // const navItems = ['Меню', 'Товари', 'Книги', 'Дизайн'];
-  const products = [{ id: 1, title: 'ПОДУШКИ', subtitle: 'спальня кімната вітальня', price: '12$', tag: '20%' },
-  { id: 2, title: 'КОВДРА', subtitle: 'спальня кімната вітальня', price: '30$', tag: '30%' },
-  { id: 3, title: 'ЛІЖКО', subtitle: 'спальня кімната вітальня', price: '414$', tag: '10%' },];
+  const products = [{ id: 1, title: 'ПОДУШКИ', subtitle: 'спальня кімната вітальня', price: '12$', tag: 'TOP', image: 'Rectangle\ 28.png'},
+  { id: 2, title: 'КОВДРА', subtitle: 'спальня кімната вітальня', price: '30$', tag: 'TOP', image: 'Rectangle\ 27.png'},
+  { id: 3, title: 'ЛІЖКО', subtitle: 'спальня кімната вітальня', price: '30$', tag: 'TOP', image: 'Rectangle\ 26.png'}];
   const hashtags = ['#вседлядому', '#швидкотазручно', '#buy now'];
 
   return (
@@ -14,19 +14,19 @@ const App = () => {
       <div className="strip">
         <p className="text">#buy now #вседлядому #швидкотазручно #buy now #вседлядому #швидкотазручно #buy now #вседлядому #швидкотазручно #buy now #вседлядому #швидкотазручно</p>
       </div>
+      <div className="user-actions">
+        <nav>
+          <a className="action-button" href="#">☰<br></br>Меню</a>
+          <img src="./Union.png" />
+          <a className="action-button" href="#"> Товари</a>
+          <a className="action-button" href="#"> Книги</a>
+          <a className="action-button" href="#"> Дизайн</a>
+          <a className="action-button" href="#"><img src="./uil_user.png" /> Київ</a>
+          <a className="action-button" href="#"><img src="./uil_user_profile.png" /> Привіт! Увійдіть В Систему</a>
+          <a className="action-button" href="#"><img src="./basket_for_shopping.png" /><img src="./like.png" /></a>
+        </nav>
+      </div>
       <div className="wrap">
-        <div className="user-actions">
-          <nav>
-            <a className="action-button" href="#">☰<br></br>Меню</a>
-            <img src="./Union.png" />
-            <a className="action-button" href="#"> Товари</a>
-            <a className="action-button" href="#"> Книги</a>
-            <a className="action-button" href="#"> Дизайн</a>
-            <a className="action-button" href="#"><img src="./uil_user.png" /> Київ</a>
-            <a className="action-button" href="#"><img src="./uil_user_profile.png" /> Привіт! Увійдіть В Систему</a>
-            <a className="action-button" href="#"><img src="./basket_for_shopping.png" /><img src="./like.png" /></a>
-          </nav>
-        </div>
         <header>
           {/* <nav>
           {navItems.map((item, index) => (
@@ -49,7 +49,26 @@ const App = () => {
                   КАТАЛОГ &#9662;
                 </button>
               </div>
+
+
               <div className="product-cards">
+                {products.map((product) => (
+                  <div key={product.id} className="product-card">
+                    <div className="product-image">
+                      <img src={product.image} alt={product.title} />
+                      <span className="product-tag">{product.tag}</span>
+                    </div>
+                    <div className="product-info">
+                      <h3>{product.title}</h3>
+                      <p>{product.subtitle}</p>
+                      <span className="product-price">{product.price}</span>
+                    </div>
+                  </div>
+                ))}
+              </div>
+
+
+              {/* <div className="product-cards">
                 {products.map((product) => (
                   <div key={product.id} className="product-card">
                     <div className="product-image">
@@ -62,13 +81,10 @@ const App = () => {
                     </div>
                   </div>
                 ))}
-              </div>
+              </div> */}
               <p className="promo-text">
                 ЛОВИ МОМЕНТ! Знижки до <strong>60%</strong> на вибрані категорії товарів!
               </p>
-            </div>
-            <div className="right-content">
-              {/* Hero image will be set as background in CSS */}
             </div>
           </div>
         </main>
@@ -109,7 +125,7 @@ export default App;
 //             className="border rounded-full px-4 py-1 text-sm"
 //           />
 //           <button>Увійти</button>
-//           <button>🛒</button>
+//           <button>Корзина</button>
 //         </div>
 //       </div>
 
