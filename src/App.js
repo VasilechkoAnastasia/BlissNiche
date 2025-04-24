@@ -57,11 +57,11 @@ const App = () => {
         </nav>
       </div>
       <header>
-          <div className="search-bar">
-            <img src="./Group.png" className="search-icon" />
-            <input type="text" placeholder="Пошук" />
-          </div>
-        </header>
+        <div className="search-bar">
+          <img src="./Group.png" className="search-icon" />
+          <input type="text" placeholder="Пошук" />
+        </div>
+      </header>
 
       <div className="wrap">
         <main>
@@ -101,13 +101,50 @@ const App = () => {
 
           <section className="second-main-section">
             <p className="title-section-main">ЗНАЙДИ ТЕ, ШО ШУКАЄШ!</p>
+
           </section>
+
+
+
+
+          <div className="promo">
+            <div className="row">
+              <div className="card">
+                <img src="PhotoSecondSection1.png"/>
+                <div className="bar">
+                  <span>НАША НОВА КОЛЛЕКЦІЯ</span>
+                  <img src="./button for slider.png"/>
+                </div>
+              </div>
+              <div className="card">
+                <img src="PhotoSecondSection2.png"/>
+                <div className="bar">
+                  <span>НАШІ НАЙКРАЩІ ПРОПОЗИЦІЇ</span>
+                  <img src="./button for slider.png"/>
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="card full">
+                <img src="PhotoSecondSection3.png" style={{width: '1480px'}}/>
+                <div className="bar right">
+                <img src="./button for slider.png"/>
+                </div>
+              </div>
+            </div>
+          </div>
 
           <section className="third-main-section">
             <p className="title-section-main">РЕКОМЕНДАЦІЇ</p>
             <SliderMain images={sliderImages1} />
             <p className="title-section-main">НАЙКРАЩІ НАБОРИ</p>
             <SliderMain images={sliderImages2} />
+          </section>
+
+          <section className="four-main-section">
+            <p className="title-section-main">НОВИНКИ</p>
+            <SliderMain images={sliderImages1} />
           </section>
         </main>
       </div>
