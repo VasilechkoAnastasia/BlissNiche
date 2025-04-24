@@ -100,13 +100,13 @@ const App = () => {
           </section>
 
           <section className="second-main-section">
-            <h1>ЗНАЙДИ ТЕ,ШО ШУКАЄШ!</h1>
+            <p className="title-section-main">ЗНАЙДИ ТЕ, ШО ШУКАЄШ!</p>
           </section>
 
           <section className="third-main-section">
-            <h1>РЕКОМЕНДАЦІЇ</h1>
+            <p className="title-section-main">РЕКОМЕНДАЦІЇ</p>
             <SliderMain images={sliderImages1} />
-            <h1>НАЙКРАЩІ НАБОРИ!</h1>
+            <p className="title-section-main">НАЙКРАЩІ НАБОРИ</p>
             <SliderMain images={sliderImages2} />
           </section>
         </main>

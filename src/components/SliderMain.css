@@ -40,7 +40,7 @@
   .slider__item {
     width: 219px;
     height: 286px;
-    background-color: darkgray;
+    background-color: #FFFFFF;
     border-radius: 15px;
     flex-shrink: 0;
     text-align: center;
@@ -66,43 +66,13 @@
     transform: scaleX(-1);
   }
   
-  
-  #cart1 {
-    background-image: url('/public/slider1.png');
+  #rightButton
+  {
+    margin-left: -15px;
   }
-  
-  #cart2 {
-    background-image: url();
+  #leftButton
+  {
+    margin-left: 25px;
   }
+
   
-  #cart3 {
-    background-image: url();
-  }
-  
-  #cart4 {
-    background-image: url();
-  }
-  
-  #cart5 {
-    background-image: url();
-  }
-  
-  #cart6 {
-    background-image: url();
-  }
-  
-  #cart7 {
-    background-image: url();
-  }
-  
-  #cart8 {
-    background-image: url();
-  }
-  
-  #cart9 {
-    background-image: url();
-  }
-  
-  #cart10 {
-    background-image: url();
-  }

@@ -214,13 +214,13 @@ const SliderMain = ({ images }) => {
               key={i}
               style={{ backgroundImage: `url(${image})` }} // Динамическое задание фона
             >
-              <button className="buttonInSlider">Назва набору {i + 1}</button>
+              <button className="buttonInSlider">Назва набору</button>
             </div>
           ))}
         </div>
       </div>
 
-      <span className="slider__btn slider__btn--right js-btn-right" ref={btnRightRef}>
+      <span className="slider__btn slider__btn--right js-btn-right" ref={btnRightRef} id="rightButton">
         <img src="./button for slider.png" alt="Right Button" />
       </span>
     </div>
