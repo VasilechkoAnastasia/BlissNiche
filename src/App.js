@@ -110,26 +110,26 @@ const App = () => {
           <div className="promo">
             <div className="row">
               <div className="card">
-                <img src="PhotoSecondSection1.png"/>
+                <img src="PhotoSecondSection1.png" />
                 <div className="bar">
                   <span>НАША НОВА КОЛЛЕКЦІЯ</span>
-                  <img src="./button for slider.png"/>
+                  <img src="./button for slider.png" />
                 </div>
               </div>
               <div className="card">
-                <img src="PhotoSecondSection2.png"/>
+                <img src="PhotoSecondSection2.png" />
                 <div className="bar">
                   <span>НАШІ НАЙКРАЩІ ПРОПОЗИЦІЇ</span>
-                  <img src="./button for slider.png"/>
+                  <img src="./button for slider.png" />
                 </div>
               </div>
             </div>
 
             <div className="row">
               <div className="card full">
-                <img src="PhotoSecondSection3.png" style={{width: '1480px'}}/>
+                <img src="PhotoSecondSection3.png" style={{ width: '1480px' }} />
                 <div className="bar right">
-                <img src="./button for slider.png"/>
+                  <img src="./button for slider.png" />
                 </div>
               </div>
             </div>
@@ -144,7 +144,12 @@ const App = () => {
 
           <section className="four-main-section">
             <p className="title-section-main">НОВИНКИ</p>
-            <SliderMain images={sliderImages1} />
+            <div className="gallery-grid">
+              <img src={img1} alt="Window" className="img img1" />
+              <img src={img2} alt="Bedroom" className="img img2" />
+              <img src={img3} alt="Family" className="img img3" />
+              <img src={img4} alt="Kitchen" className="img img4" />
+            </div>
           </section>
         </main>
       </div>
