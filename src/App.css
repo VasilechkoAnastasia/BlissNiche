@@ -1,3 +1,4 @@
+/*-------------------ЦВЕТА-------------------*/
 :root {
   --primary-color: #000000;
   --secondary-color: #ffffff;
@@ -6,12 +7,16 @@
   --background-color: #ffffff;
 }
 
+
+
+
+/*-------------------ВРАППЕР ТЕЛО-------------------*/
 body {
   font-family: 'Inter', sans-serif;
   margin: 0;
   padding: 0;
   background-image: url('/public/Rectangle\ 15.png');
-  background-image: 1921px 1026px;
+  background-image: 1921px 1026px; 
 }
 
 .wrap {
@@ -24,30 +29,12 @@ body {
 
 .app {
   width: 1921px;
-  /* margin: 0 auto; */
-  /* display: flex;
-  justify-content: center; */
 }
 
-.banner {
-  background-color: var(--accent-color);
-  padding: 8px 0;
-  overflow: hidden;
-}
 
-.hashtag {
-  margin: 0 16px;
-  font-size: 14px;
-  color: #666;
-}
 
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 0;
-}
 
+/*-------------------КРУТЯЩАЯСЯ СИНЯЯ ШТУКА-------------------*/
 nav {
   display: flex;
   gap: 32px;
@@ -62,30 +49,44 @@ nav {
   font-weight: bold;
 }
 
-.search-bar {
-  position: relative;
-  width: 300px;
-}
-
-.search-icon {
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  color: #666;
-}
-
-.search-bar input {
-  width: 100%;
-  padding: 8px 8px 8px 36px;
-  border-radius: 20px;
-  border: 1px solid #ddd;
-  background-color: #f5f5f5;
-}
-
-.user-actions {
-  gap: 16px;
+.strip {
+  width: 1920px;
+  height: 40px;
+  background-color: #839D9A;
+  display: flex;
   align-items: center;
+  overflow: hidden;
+}
+
+.text {
+  color: white;
+  font-family: Montserrat;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}
+
+
+
+
+/*-------------------МЕНЮ-------------------*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+
+.header-left,
+.header-right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 30px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .action-button,
@@ -106,6 +107,46 @@ nav {
   font-size: 18px;
 }
 
+.user-actions {
+  gap: 16px;
+  align-items: center;
+}
+
+
+
+
+/*-------------------ПОИСК-------------------*/
+.search-bar {
+  width: 1271px;
+  height: 50px;
+  top: 109px;
+  left: 324px;
+  border-radius: 30px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.search-icon {
+  position: absolute;
+  left: 10px;
+  top: 5%;
+  color: #666;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 8px 8px 8px 36px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  background-color: #f5f5f5;
+}
+
+
+
+
+
+
+/*-------------------КНОПКИ И ЗАГОЛОВОК-------------------*/
 main {
   margin-top: 40px;
 }
@@ -157,7 +198,7 @@ h1 {
 
 
 
-
+/*-------------------ТРИ КАРТОЧКИ КАРТИНКИ-------------------*/
 .product-cards {
   display: flex;
   gap: 16px;
@@ -188,13 +229,12 @@ h1 {
 .product-tag {
   position: absolute;
   width: 40px;
-height: 40px;
-top: 13px;
-left: 147px;
-gap: 10px;
-padding: 10px;
-border-radius: 30px;
-
+  height: 40px;
+  top: 13px;
+  left: 147px;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 30px;
   background-color: #7e9a97;
   color: white;
   padding: 4px 10px;
@@ -231,63 +271,7 @@ border-radius: 30px;
 
 
 
-/* .product-cards {
-  display: flex;
-  gap: 16px;
-  margin-bottom: 24px;
-}
-
-.product-card {
-  background-color: #fff;
-  border-radius: 15px;
-  overflow: hidden;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  width: 160px;
-  height: 212px;
-}
-
-.product-image {
-  height: 150px;
-  background-color: #f0f0f0;
-  position: relative;
-}
-
-.product-tag {
-  position: absolute;
-  top: 8px;
-  left: 8px;
-  background-color: var(--accent-color);
-  padding: 4px 8px;
-  border-radius: 12px;
-  font-size: 12px;
-  font-weight: bold;
-}
-
-.product-info {
-  padding: 16px;
-}
-
-.product-info h3 {
-  margin: 0 0 4px 0;
-  font-size: 16px;
-}
-
-.product-info p {
-  margin: 0 0 8px 0;
-  font-size: 12px;
-  color: #666;
-}
-
-.product-price {
-  font-weight: bold;
-} */
-
-.promo-text {
-  font-size: 14px;
-}
-
-
-
+/*-------------------АДАПТИВ-------------------*/
 @media (max-width: 500px) {
   .content {
     flex-direction: column;
@@ -309,118 +293,8 @@ border-radius: 30px;
 
 
 
+/*-------------------СЕКЦИИ-------------------*/
+.second-main-section{
+  
 
-/* .container {
-  font-family: Arial, sans-serif;
-}
-
-.header {
-  background-color: #f0f0f0;
-  padding: 20px;
-}
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  font-size: 30px;
-  font-weight: bold;
-}
-
-.search-bar input {
-  padding: 10px;
-  width: 200px;
-}
-
-.user-actions button {
-  padding: 10px 20px;
-  margin-left: 10px;
-}
-
-.main-banner {
-  text-align: center;
-  padding: 50px 0;
-  background-color: #e0e0e0;
-}
-
-.catalog-button {
-  padding: 10px 20px;
-  background-color: black;
-  color: white;
-  font-size: 18px;
-}
-
-.product-list {
-  display: flex;
-  justify-content: space-around;
-  padding: 20px 0;
-}
-
-.product {
-  width: 30%;
-  text-align: center;
-}
-
-.product img {
-  width: 100%;
-  height: auto;
-}
-
-.product-info {
-  margin-top: 10px;
-}
-
-.product-info h3 {
-  font-size: 20px;
-  font-weight: bold;
-}
-
-.product-info p {
-  font-size: 14px;
-}
-
-.product-info span {
-  font-size: 18px;
-  color: green;
-}
-
-.promotion-banner {
-  background-color: #f8f8f8;
-  text-align: center;
-  padding: 20px 0;
-}
-
-.cta {
-  text-align: center;
-  padding: 20px 0;
-}
-
-.cta-button {
-  background-color: black;
-  color: white;
-  padding: 15px 40px;
-  font-size: 18px;
-  border: none;
-  cursor: pointer;
-} */
-
-.strip {
-  width: 1920px;
-  height: 40px;
-  background-color: #839D9A;
-  display: flex;
-  align-items: center;
-  overflow: hidden;
-}
-
-.text {
-  color: white;
-  font-family: Montserrat;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 100%;
-  letter-spacing: 0%;
 }
