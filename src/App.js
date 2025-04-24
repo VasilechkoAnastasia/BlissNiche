@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import SliderMain from './components/SliderMain.js';
 
 const App = () => {
   const products = [{ id: 1, title: 'ПОДУШКИ', subtitle: 'спальня кімната вітальня', price: '12$', tag: 'TOP', image: 'Rectangle\ 28.png' },
@@ -75,7 +76,7 @@ const App = () => {
           <section className="second-main-section">
             <h1>ЗНАЙДИ ТЕ,ШО ШУКАЄШ!</h1>
             <div>
-              
+            <SliderMain />
             </div>
           </section>
         </main>
