@@ -145,10 +145,10 @@ const App = () => {
           <section className="four-main-section">
             <p className="title-section-main">НОВИНКИ</p>
             <div className="gallery-grid">
-              <img src={img1} alt="Window" className="img img1" />
-              <img src={img2} alt="Bedroom" className="img img2" />
-              <img src={img3} alt="Family" className="img img3" />
-              <img src={img4} alt="Kitchen" className="img img4" />
+              <img src="four-sections-photo1.png" className="four-sections-photo1" />
+              <img src="four-sections-photo2.png" className="four-sections-photo2" />
+              <img src="four-sections-photo3.png" className="four-sections-photo3" />
+              <img src="four-sections-photo4.png" className="four-sections-photo4" />
             </div>
           </section>
         </main>
