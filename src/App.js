@@ -7,6 +7,32 @@ const App = () => {
   { id: 2, title: 'КОВДРА', subtitle: 'спальня кімната вітальня', price: '30$', tag: 'TOP', image: 'Rectangle\ 27.png' },
   { id: 3, title: 'ЛІЖКО', subtitle: 'спальня кімната вітальня', price: '30$', tag: 'TOP', image: 'Rectangle\ 26.png' }];
 
+  const sliderImages1 = [
+    "/slider1.png",
+    "/slider2.png",
+    "/slider3.png",
+    "/slider4.png",
+    "/slider5.png",
+    "/slider6.png",
+    "/slider7.jpg",
+    "/slider8.jpg",
+    "/slider9.jpg",
+    "/slider10.jpg",
+  ];
+
+  const sliderImages2 = [
+    "/slider11.jpg",
+    "/slider12.jpg",
+    "/slider13.jpg",
+    "/slider14.jpg",
+    "/slider15.jpg",
+    "/slider16.jpg",
+    "/slider17.jpg",
+    "/slider18.jpg",
+    "/slider19.jpg",
+    "/slider20.jpg",
+  ];
+
   return (
     <div className="app">
       <div className="strip">
@@ -30,14 +56,14 @@ const App = () => {
           </div>
         </nav>
       </div>
-
-      <div className="wrap">
-        <header>
+      <header>
           <div className="search-bar">
             <img src="./Group.png" className="search-icon" />
             <input type="text" placeholder="Пошук" />
           </div>
         </header>
+
+      <div className="wrap">
         <main>
           <section className="first-main-section">
             <div className="content">
@@ -75,9 +101,13 @@ const App = () => {
 
           <section className="second-main-section">
             <h1>ЗНАЙДИ ТЕ,ШО ШУКАЄШ!</h1>
-            <div>
-            <SliderMain />
-            </div>
+          </section>
+
+          <section className="third-main-section">
+            <h1>РЕКОМЕНДАЦІЇ</h1>
+            <SliderMain images={sliderImages1} />
+            <h1>НАЙКРАЩІ НАБОРИ!</h1>
+            <SliderMain images={sliderImages2} />
           </section>
         </main>
       </div>

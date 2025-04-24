@@ -17,6 +17,7 @@ body {
   padding: 0;
   background-image: url('/public/Rectangle\ 15.png');
   background-image: 1921px 1026px; 
+  background-repeat: no-repeat;
 }
 
 .wrap {
@@ -31,6 +32,11 @@ body {
   width: 1921px;
 }
 
+main {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;  
+}
 
 
 
@@ -147,9 +153,6 @@ header {
 
 
 /*-------------------КНОПКИ И ЗАГОЛОВОК-------------------*/
-main {
-  margin-top: 40px;
-}
 
 .content {
   display: flex;
@@ -294,9 +297,8 @@ h1 {
 
 
 /*-------------------СЕКЦИИ-------------------*/
-.second-main-section{
-
-
+.first-main-section{
+  margin-top: 1000px;
 }
 
 
