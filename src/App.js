@@ -239,27 +239,27 @@ const App = () => {
               <div className="image-grid">
                 <div className="image-wrapper">
                   <img src="six-section-idea1.png" />
-                  <div className="corner-icon">↗</div>
+                  <img src="strelka.png" className="corner-icon" style={{ width: '40px' }}/>
                 </div>
                 <div className="image-wrapper">
                   <img src="six-section-idea2.png" />
-                  <div className="corner-icon">↗</div>
+                  <img src="strelka.png" className="corner-icon" style={{ width: '40px' }}/>
                 </div>
                 <div className="image-wrapper">
                   <img src="six-section-idea3.png" />
-                  <div className="corner-icon">↗</div>
+                  <img src="strelka.png" className="corner-icon" style={{ width: '40px' }}/>
                 </div>
                 <div className="image-wrapper">
                   <img src="six-section-idea4.png" />
-                  <div className="corner-icon">↗</div>
+                  <img src="strelka.png" className="corner-icon" style={{ width: '40px' }}/>
                 </div>
                 <div className="image-wrapper central">
                   <img src="six-section-idea5.png" />
-                  <div className="corner-icon">↗</div>
+                  <img src="strelka.png" className="corner-icon" style={{ width: '40px' }}/>
                 </div>
                 <div className="image-wrapper">
                   <img src="six-section-idea6.png" />
-                  <div className="corner-icon">↗</div>
+                  <img src="strelka.png" className="corner-icon" style={{ width: '40px' }}/>
                 </div>
               </div>
             </div>
@@ -282,27 +282,28 @@ const App = () => {
               <div className="image-grid">
                 <div className="image-wrapper">
                   <img src="seven-main-recomendation1.png" />
-                  <div className="corner-icon">↗</div>
+                  {/* <div className="corner-icon">↗</div> */}
+                  <img src="strelka.png" className="corner-icon" style={{ width: '40px' }}/>
                 </div>
                 <div className="image-wrapper">
                   <img src="seven-main-recomendation2.png" />
-                  <div className="corner-icon">↗</div>
+                  <img src="strelka.png" className="corner-icon" style={{ width: '40px' }}/>
                 </div>
                 <div className="image-wrapper">
                   <img src="seven-main-recomendation3.png" />
-                  <div className="corner-icon">↗</div>
+                  <img src="strelka.png" className="corner-icon" style={{ width: '40px' }}/>
                 </div>
                 <div className="image-wrapper">
                   <img src="seven-main-recomendation4.png" />
-                  <div className="corner-icon">↗</div>
+                  <img src="strelka.png" className="corner-icon" style={{ width: '40px' }}/>
                 </div>
                 <div className="image-wrapper central">
                   <img src="seven-main-recomendation5.png" />
-                  <div className="corner-icon">↗</div>
+                  <img src="strelka.png" className="corner-icon" style={{ width: '40px' }}/>
                 </div>
                 <div className="image-wrapper">
                   <img src="seven-main-recomendation6.png" />
-                  <div className="corner-icon">↗</div>
+                  <img src="strelka.png" className="corner-icon" style={{ width: '40px' }}/>
                 </div>
               </div>
             </div>
