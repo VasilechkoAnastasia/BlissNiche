@@ -268,16 +268,15 @@ const App = () => {
           <section className="seven-main-recomendation">
             <p className="title-section-main">ДОДАТКОВІ РЕКОМЕНДАЦІЇ</p>
             <div className="title-strip">
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАБОРУ</span>
+              <span className="title-strip-item">НАЗВА НАБОРУ</span>
+              <span className="title-strip-item">НАЗВА НАБОРУ</span>
+              <span className="title-strip-item">НАЗВА НАБОРУ</span>
+              <span className="title-strip-item">НАЗВА НАБОРУ</span>
+              <span className="title-strip-item">НАЗВА НАБОРУ</span>
+              <span className="title-strip-item">НАЗВА НАБОРУ</span>
+              <span className="title-strip-item">НАЗВА НАБОРУ</span>
+              <span className="title-strip-item">НАЗВА НАБОРУ</span>
             </div>
             <div className="masonry-grid">
               <div className="image-grid">
@@ -308,16 +307,15 @@ const App = () => {
               </div>
             </div>
             <div className="title-strip">
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
-              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАБОРУ</span>
+              <span className="title-strip-item">НАЗВА НАБОРУ</span>
+              <span className="title-strip-item">НАЗВА НАБОРУ</span>
+              <span className="title-strip-item">НАЗВА НАБОРУ</span>
+              <span className="title-strip-item">НАЗВА НАБОРУ</span>
+              <span className="title-strip-item">НАЗВА НАБОРУ</span>
+              <span className="title-strip-item">НАЗВА НАБОРУ</span>
+              <span className="title-strip-item">НАЗВА НАБОРУ</span>
+              <span className="title-strip-item">НАЗВА НАБОРУ</span>
             </div>
           </section>
 
@@ -335,12 +333,103 @@ const App = () => {
                 </p>
               </div>
             </div>
-
           </section>
-
-
         </main>
+
+
+
+        
+
+
+        
       </div>
+
+      <footer className="footer">
+      {/* Верхняя часть футера с колонками */}
+      <div className="footer-top">
+        {/* Колонка 1 */}
+        <div className="footer-column">
+          <h3 className="footer-column-title">Заголовок підрозділу</h3>
+          <ul className="footer-column-list">
+            <li><a href="#link1">Зміст підтеми</a></li>
+            <li><a href="#link2">Зміст підтеми</a></li>
+            <li><a href="#link3">Зміст підтеми</a></li>
+            <li><a href="#link4">Зміст підтеми</a></li>
+            <li><a href="#link5">Зміст підтеми</a></li>
+            <li><a href="#link6">Зміст підтеми</a></li>
+            <li><a href="#link7">Зміст підтеми</a></li>
+            <li><a href="#link8">Зміст підтеми</a></li>
+            <li><a href="#link9">Зміст підтеми</a></li>
+          </ul>
+        </div>
+
+        {/* Колонка 2 */}
+        <div className="footer-column">
+          <h3 className="footer-column-title">Заголовок підрозділу</h3>
+          <ul className="footer-column-list">
+            <li><a href="#link1">Зміст підтеми</a></li>
+            <li><a href="#link2">Зміст підтеми</a></li>
+            <li><a href="#link3">Зміст підтеми</a></li>
+          </ul>
+        </div>
+
+        {/* Колонка 3 */}
+        <div className="footer-column">
+          <h3 className="footer-column-title">Заголовок підрозділу</h3>
+          <ul className="footer-column-list">
+            <li><a href="#link1">Зміст підтеми</a></li>
+            <li><a href="#link2">Зміст підтеми</a></li>
+            <li><a href="#link3">Зміст підтеми</a></li>
+            <li><a href="#link4">Зміст підтеми</a></li>
+            <li><a href="#link5">Зміст підтеми</a></li>
+            <li><a href="#link6">Зміст підтеми</a></li>
+          </ul>
+        </div>
+
+        {/* Колонка 4 */}
+        <div className="footer-column">
+          <h3 className="footer-column-title">Заголовок підрозділу</h3>
+          <ul className="footer-column-list">
+            <li><a href="#link1">Зміст підтеми</a></li>
+            <li><a href="#link2">Зміст підтеми</a></li>
+            <li><a href="#link3">Зміст підтеми</a></li>
+          </ul>
+        </div>
+      </div>
+
+      {/* Разделительная линия */}
+
+      {/* Нижняя часть футера */}
+      <div className="footer-bottom">
+        <div className="footer-bottom-left">
+          {/* Иконки социальных сетей */}
+          <div className="footer-social-icons">
+            <a href="#social1"><img src="instagram-icon.png" alt="Instagram" /></a>
+            <a href="#social2"><img src="twitter-icon.png" alt="Twitter" /></a>
+            <a href="#social3"><img src="telegram-icon.png" alt="Telegram" /></a>
+            
+          </div>
+          {/* Иконки платежных систем */}
+          <div className="footer-payment-icons">
+            <img src="visa-icon.png" alt="Visa" />
+            <img src="mastercard-icon.png" alt="MasterCard" />
+            <img src="maestro-icon.png" alt="Maestro" />
+            <img src="paypal-icon.png" alt="PayPal" />
+            <img src="applepay-icon.png" alt="Apple Pay" />
+          </div>
+        </div>
+
+        <div className="footer-bottom-right">
+          <ul className="footer-bottom-links">
+            <li><a href="#link1">Заголовок підрозділу</a></li>
+            <li><a href="#link2">Заголовок підрозділу</a></li>
+            <li><a href="#link3">Заголовок підрозділу</a></li>
+            <li><a href="#link4">Заголовок підрозділу</a></li>
+            <li><a href="#link5">Заголовок підрозділу</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
     </div >
   );
 };
