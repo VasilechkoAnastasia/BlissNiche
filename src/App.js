@@ -102,38 +102,37 @@ const App = () => {
           <section className="second-main-section">
             <p className="title-section-main">ЗНАЙДИ ТЕ, ШО ШУКАЄШ!</p>
 
+
+
+
+            <div className="promo">
+              <div className="row">
+                <div className="card">
+                  <img src="PhotoSecondSection1.png" />
+                  <div className="bar">
+                    <span>НАША НОВА КОЛЛЕКЦІЯ</span>
+                    <img src="./button for slider.png" />
+                  </div>
+                </div>
+                <div className="card">
+                  <img src="PhotoSecondSection2.png" />
+                  <div className="bar">
+                    <span>НАШІ НАЙКРАЩІ ПРОПОЗИЦІЇ</span>
+                    <img src="./button for slider.png" />
+                  </div>
+                </div>
+              </div>
+
+              <div className="row">
+                <div className="card full">
+                  <img src="PhotoSecondSection3.png" style={{ width: '1480px' }} />
+                  <div className="bar right">
+                    <img src="./button for slider.png" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </section>
-
-
-
-
-          <div className="promo">
-            <div className="row">
-              <div className="card">
-                <img src="PhotoSecondSection1.png" />
-                <div className="bar">
-                  <span>НАША НОВА КОЛЛЕКЦІЯ</span>
-                  <img src="./button for slider.png" />
-                </div>
-              </div>
-              <div className="card">
-                <img src="PhotoSecondSection2.png" />
-                <div className="bar">
-                  <span>НАШІ НАЙКРАЩІ ПРОПОЗИЦІЇ</span>
-                  <img src="./button for slider.png" />
-                </div>
-              </div>
-            </div>
-
-            <div className="row">
-              <div className="card full">
-                <img src="PhotoSecondSection3.png" style={{ width: '1480px' }} />
-                <div className="bar right">
-                  <img src="./button for slider.png" />
-                </div>
-              </div>
-            </div>
-          </div>
 
           <section className="third-main-section">
             <p className="title-section-main">РЕКОМЕНДАЦІЇ</p>
@@ -151,9 +150,198 @@ const App = () => {
               <img src="four-sections-photo4.png" className="four-sections-photo4" />
             </div>
           </section>
+
+
+
+          <section className="five-main-section">
+            <p className="title-section-main">КАТАЛОГ</p>
+
+            <div className="catalog-grid">
+              <div className="catalog-item">
+                <img src="five-section-katalog1.png" className="catalog-image" />
+                <p className="catalog-title">НАЗВА НАБОРУ</p>
+              </div>
+              <div className="catalog-item">
+                <img src="five-section-katalog2.png" className="catalog-image" />
+                <p className="catalog-title">НАЗВА НАБОРУ</p>
+              </div>
+              <div className="catalog-item">
+                <img src="five-section-katalog3.png" className="catalog-image" />
+                <p className="catalog-title">НАЗВА НАБОРУ</p>
+              </div>
+              <div className="catalog-item">
+                <img src="five-section-katalog4.png" className="catalog-image" />
+                <p className="catalog-title">НАЗВА НАБОРУ</p>
+              </div>
+              <div className="catalog-item">
+                <img src="five-section-katalog5.png" className="catalog-image" />
+                <p className="catalog-title">НАЗВА НАБОРУ</p>
+              </div>
+              <div className="catalog-item">
+                <img src="five-section-katalog6.png" className="catalog-image" />
+                <p className="catalog-title">НАЗВА НАБОРУ</p>
+              </div>
+              <div className="catalog-item">
+                <img src="five-section-katalog7.png" className="catalog-image" />
+                <p className="catalog-title">НАЗВА НАБОРУ</p>
+              </div>
+              <div className="catalog-item">
+                <img src="five-section-katalog8.png" className="catalog-image" />
+                <p className="catalog-title">НАЗВА НАБОРУ</p>
+              </div>
+              <div className="catalog-item">
+                <img src="five-section-katalog9.png" className="catalog-image" />
+                <p className="catalog-title">НАЗВА НАБОРУ</p>
+              </div>
+              <div className="catalog-item">
+                <img src="five-section-katalog10.png" className="catalog-image" />
+                <p className="catalog-title">НАЗВА НАБОРУ</p>
+              </div>
+              <div className="catalog-item">
+                <img src="five-section-katalog11.png" className="catalog-image" />
+                <p className="catalog-title">НАЗВА НАБОРУ</p>
+              </div>
+              <div className="catalog-item">
+                <img src="five-section-katalog12.png" className="catalog-image" />
+                <p className="catalog-title">НАЗВА НАБОРУ</p>
+              </div>
+              <div className="catalog-item">
+                <img src="five-section-katalog13.png" className="catalog-image" />
+                <p className="catalog-title">НАЗВА НАБОРУ</p>
+              </div>
+              <div className="catalog-item">
+                <img src="five-section-katalog14.png" className="catalog-image" />
+                <p className="catalog-title">НАЗВА НАБОРУ</p>
+              </div>
+              <div className="catalog-item">
+                <img src="five-section-katalog15.png" className="catalog-image" />
+                <p className="catalog-title">НАЗВА НАБОРУ</p>
+              </div>
+              <div className="catalog-item">
+                <img src="five-section-katalog16.png" className="catalog-image" />
+                <p className="catalog-title">НАЗВА НАБОРУ</p>
+              </div>
+              <div className="catalog-item">
+                <img src="five-section-katalog17.png" className="catalog-image" />
+                <p className="catalog-title">НАЗВА НАБОРУ</p>
+              </div>
+              <div className="catalog-item">
+                <img src="five-section-katalog18.png" className="catalog-image" />
+                <p className="catalog-title">НАЗВА НАБОРУ</p>
+              </div>
+            </div>
+          </section>
+
+
+          <section className="six-main-section">
+            <p className="title-section-main">ІДЕЇ ДЛЯ ОФОРМЛЕННЯ</p>
+            <div className="masonry-grid">
+              <div className="image-grid">
+                <div className="image-wrapper">
+                  <img src="six-section-idea1.png" />
+                  <div className="corner-icon">↗</div>
+                </div>
+                <div className="image-wrapper">
+                  <img src="six-section-idea2.png" />
+                  <div className="corner-icon">↗</div>
+                </div>
+                <div className="image-wrapper">
+                  <img src="six-section-idea3.png" />
+                  <div className="corner-icon">↗</div>
+                </div>
+                <div className="image-wrapper">
+                  <img src="six-section-idea4.png" />
+                  <div className="corner-icon">↗</div>
+                </div>
+                <div className="image-wrapper central">
+                  <img src="six-section-idea5.png" />
+                  <div className="corner-icon">↗</div>
+                </div>
+                <div className="image-wrapper">
+                  <img src="six-section-idea6.png" />
+                  <div className="corner-icon">↗</div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section className="seven-main-recomendation">
+            <p className="title-section-main">ДОДАТКОВІ РЕКОМЕНДАЦІЇ</p>
+            <div className="title-strip">
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+            </div>
+            <div className="masonry-grid">
+              <div className="image-grid">
+                <div className="image-wrapper">
+                  <img src="seven-main-recomendation1.png" />
+                  <div className="corner-icon">↗</div>
+                </div>
+                <div className="image-wrapper">
+                  <img src="seven-main-recomendation2.png" />
+                  <div className="corner-icon">↗</div>
+                </div>
+                <div className="image-wrapper">
+                  <img src="seven-main-recomendation3.png" />
+                  <div className="corner-icon">↗</div>
+                </div>
+                <div className="image-wrapper">
+                  <img src="seven-main-recomendation4.png" />
+                  <div className="corner-icon">↗</div>
+                </div>
+                <div className="image-wrapper central">
+                  <img src="seven-main-recomendation5.png" />
+                  <div className="corner-icon">↗</div>
+                </div>
+                <div className="image-wrapper">
+                  <img src="seven-main-recomendation6.png" />
+                  <div className="corner-icon">↗</div>
+                </div>
+              </div>
+            </div>
+            <div className="title-strip">
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+              <span className="title-strip-item">НАЗВА НАЗВА</span>
+            </div>
+          </section>
+
+
+          <section className="eight-main-section">
+            <p className="title-section-main">ВАЖЛИВА ІНФОРМАЦІЯ</p>
+            <div className="info-card">
+              <div className="info-card-image">
+                <img src="eight-main-cards1.png" alt="Рабочий стол с ноутбуком" />
+              </div>
+              <div className="info-card-text">
+                <h3 className="info-card-title">ВАЖЛИВА ІНФОРМАЦІЯ</h3>
+                <p className="info-card-description">
+                Lorem ipsum dolor sit amet consectetur. Bibendum neque at em integer integer. Tempus a mi in enim dui rhoncus vulputate nulla et. Ornare sed cursus sed viverra.
+                </p>
+              </div>
+            </div>
+
+          </section>
+
+
         </main>
       </div>
-    </div>
+    </div >
   );
 };
 export default App;
