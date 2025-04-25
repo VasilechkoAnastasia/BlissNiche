@@ -5,7 +5,6 @@
     overflow: hidden;
   }
   
-  @media (max-width: 600px) {}
   
   
   .buttonInSlider {
@@ -19,12 +18,13 @@
   .slider__wrapper {
     display: flex;
     flex-shrink: 0;
-    width: 1200px;
+    width: 100%;
     align-items: center;
     overflow: hidden;
   
     @media (min-width: 768px) {
-        width: 1200px;
+      margin-left: -20px;
+      width: 1460px;
     }
   }
   
@@ -60,18 +60,21 @@
     flex-shrink: 0;
   }
   
-  #leftButton
+  /* #leftButton
   {
     transform: scaleX(-1);
-  }
+  } */
   
   #rightButton
   {
-    margin-left: -15px;
+    margin-left: -60px;
   }
+
+
   #leftButton
   {
-    margin-left: 25px;
+    transform: scaleX(-1);
+    margin-left: -20px;
   }
 
   

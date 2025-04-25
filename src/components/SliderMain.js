@@ -103,8 +103,11 @@ const SliderMain = ({ images }) => {
         </div>
       </div>
 
-      <span className="slider__btn slider__btn--right js-btn-right" ref={btnRightRef} id="rightButton">
-        <img src="./button for slider.png" alt="Right Button" />
+      {/* <span className="slider__btn slider__btn--right js-btn-right" ref={btnRightRef} id="rightButton">
+        <img src="./button for slider.png" alt="Right Button"/>
+      </span> */}
+      <span className="slider__btn slider__btn--right js-btn-right" ref={btnRightRef}>
+        <img src="./button for slider.png" id="rightButton" />
       </span>
     </div>
   );
