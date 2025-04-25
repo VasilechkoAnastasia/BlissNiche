@@ -68,7 +68,7 @@ const App = () => {
           <section className="first-main-section">
             <div className="content">
               <div className="left-content">
-                <h1>ВСЕ ДЛЯ ДОМУ</h1>
+                <h1 className="main-maintext">ВСЕ ДЛЯ ДОМУ</h1>
                 <div className="cta-buttons">
                   <button className="cta-primary">СТВОРИТИ АКАУНТ ТА ПОЧАТИ!</button>
                   <button className="cta-secondary">
@@ -282,7 +282,6 @@ const App = () => {
               <div className="image-grid">
                 <div className="image-wrapper">
                   <img src="seven-main-recomendation1.png" />
-                  {/* <div className="corner-icon">↗</div> */}
                   <img src="strelka.png" className="corner-icon" style={{ width: '40px' }}/>
                 </div>
                 <div className="image-wrapper">
@@ -325,7 +324,7 @@ const App = () => {
             <p className="title-section-main">ВАЖЛИВА ІНФОРМАЦІЯ</p>
             <div className="info-card">
               <div className="info-card-image">
-                <img src="eight-main-cards1.png" alt="Рабочий стол с ноутбуком" />
+                <img src="eight-main-cards1.png" />
               </div>
               <div className="info-card-text">
                 <h3 className="info-card-title">ВАЖЛИВА ІНФОРМАЦІЯ</h3>
@@ -393,14 +392,14 @@ const App = () => {
           <div className="footer-bottom">
             <div className="footer-bottom-left">
               <div className="footer-icons">
-                <a href="#social1"><img src="instagram-icon.png" alt="Instagram" /></a>
-                <a href="#social2"><img src="twitter-icon.png" alt="Twitter" /></a>
-                <a href="#social3"><img src="telegram-icon.png" alt="Telegram" /></a>
-                <img src="visa-icon.png" alt="Visa" />
-                <img src="mastercard-icon.png" alt="MasterCard" />
-                <img src="maestro-icon.png" alt="Maestro" />
-                <img src="paypal-icon.png" alt="PayPal" />
-                <img src="applepay-icon.png" alt="Apple Pay" />
+                <a href="#social1"><img src="instagram-icon.png"/></a>
+                <a href="#social2"><img src="twitter-icon.png" /></a>
+                <a href="#social3"><img src="telegram-icon.png"/></a>
+                <img src="visa-icon.png" />
+                <img src="mastercard-icon.png" />
+                <img src="maestro-icon.png" />
+                <img src="paypal-icon.png" />
+                <img src="applepay-icon.png" />
               </div>
             </div>
 
@@ -416,7 +415,6 @@ const App = () => {
           </div>
         </div>
 
-        {/* Черная кнопка справа */}
         <div className="footer-button">
           <a href="#top">
             <img src="button for slider.png" alt="Scroll to top" />

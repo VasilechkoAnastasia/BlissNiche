@@ -48,6 +48,11 @@ main {
   flex-direction: column;  
 }
 
+.main-maintext {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
 /*-------------------КРУТЯЩАЯСЯ СИНЯЯ ШТУКА-------------------*/
@@ -133,6 +138,11 @@ header {
 
 /*-------------------ПОИСК-------------------*/
 .search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  
   width: 1271px;
   height: 50px;
   top: 109px;
@@ -203,7 +213,7 @@ h1 {
 }
 
 .cta-secondary {
-  background-color: var(--secondary-color);
+  background-color: #00000000;
   color: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
