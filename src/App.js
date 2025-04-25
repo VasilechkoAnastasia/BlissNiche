@@ -71,12 +71,8 @@ const App = () => {
                 <h1 className="main-maintext">ВСЕ ДЛЯ ДОМУ</h1>
                 <div className="cta-buttons">
                   <button className="cta-primary">СТВОРИТИ АКАУНТ ТА ПОЧАТИ!</button>
-                  <button className="cta-secondary">
-                    КАТАЛОГ &#9662;
-                  </button>
+                  <button className="cta-secondary">КАТАЛОГ&#9662;</button>
                 </div>
-
-
                 <div className="product-cards">
                   {products.map((product) => (
                     <div key={product.id} className="product-card">
@@ -99,12 +95,11 @@ const App = () => {
             </div>
           </section>
 
+
+
+
           <section className="second-main-section">
             <p className="title-section-main">ЗНАЙДИ ТЕ, ШО ШУКАЄШ!</p>
-
-
-
-
             <div className="promo">
               <div className="row">
                 <div className="card">
@@ -134,12 +129,18 @@ const App = () => {
             </div>
           </section>
 
+
+
+
           <section className="third-main-section">
             <p className="title-section-main">РЕКОМЕНДАЦІЇ</p>
             <SliderMain images={sliderImages1} />
             <p className="title-section-main">НАЙКРАЩІ НАБОРИ</p>
             <SliderMain images={sliderImages2} />
           </section>
+
+
+
 
           <section className="four-main-section">
             <p className="title-section-main">НОВИНКИ</p>
