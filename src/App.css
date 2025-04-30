@@ -25,7 +25,7 @@ body {
   margin: 0;
   padding: 0;
   background-image: url('/public/Rectangle\ 15.png');
-  background-image: 1921px 1026px; 
+  background-image: 1921px 1026px;  
   background-repeat: no-repeat;
 }
 
@@ -88,7 +88,27 @@ nav {
   display: flex;
   align-items: center;
   overflow: hidden;
+  word-spacing: 65px;
 }
+
+
+
+/* .scroll{
+  animation: strip 20s linear infinite;
+}
+
+@keyframes strip{
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0%)
+  }
+} */
+
+
+
+
 
 .text {
   color: white;

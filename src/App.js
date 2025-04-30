@@ -36,7 +36,9 @@ const App = () => {
   return (
     <div className="app">
       <div className="strip">
-        <p className="text">#buy now #вседлядому #швидкотазручно #buy now #вседлядому #швидкотазручно #buy now #вседлядому #швидкотазручно #buy now #вседлядому #швидкотазручно</p>
+        <div className="scroll">
+          <p class="text">#вседлядому #швидкотазручно #buy_now #вседлядому #швидкотазручно #buy_now #вседлядому #швидкотазручно #buy_now</p>
+        </div>
       </div>
 
       <div className="user-actions">
