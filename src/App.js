@@ -371,19 +371,21 @@ const App = () => {
               <h3 className="footer-column-title">Дизайн</h3>
               <ul className="footer-column-list">
                 <li><a href="#link1">Створи дизайн своєї мрії</a></li>
-                <li><a href="#link2">Зміст підтеми</a></li>
-                <li><a href="#link3">Зміст підтеми</a></li>
+                <li><a href="#link2">Варіанти оформлення</a></li>
+                <li><a href="#link3">Поради</a></li>
               </ul>
             </div>
             <div className="footer-column">
-              <h3 className="footer-column-title">Заголовок підрозділу</h3>
+              <h3 className="footer-column-title">Кімнати</h3>
               <ul className="footer-column-list">
-                <li><a href="#link1">Зміст підтеми</a></li>
-                <li><a href="#link2">Зміст підтеми</a></li>
-                <li><a href="#link3">Зміст підтеми</a></li>
-                <li><a href="#link4">Зміст підтеми</a></li>
-                <li><a href="#link5">Зміст підтеми</a></li>
-                <li><a href="#link6">Зміст підтеми</a></li>
+                <li><a href="#link1">Кімнати</a></li>
+                <li><a href="#link2">Товари</a></li>
+                <li><a href="#link3">Інформація</a></li>
+                <li><a href="#link4">Каталог</a></li>
+                <li><a href="#link5">Ідеї для оформлення</a></li>
+                <li><a href="#link6">Ідеї для оформлення</a></li>
+                <li><a href="#link5">Затишні набори</a></li>
+                <li><a href="#link6">Додатково</a></li>
               </ul>
             </div>
             <div className="footer-column">
