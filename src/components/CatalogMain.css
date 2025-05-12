@@ -1,0 +1,29 @@
+/*--------------------КАТАЛОГ-----------------------*/
+.catalog-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 30px;
+    justify-items: center;
+    padding: 20px 0;
+  }
+  
+  .catalog-item {
+    text-align: center;
+  }
+  
+  .catalog-image {
+    width: 100%;
+    max-width: 150px;
+    transition: transform 0.3s ease;
+  }
+  
+  .catalog-item:hover .catalog-image {
+    transform: scale(1.05);
+  }
+  
+  .catalog-title {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000;
+  }
+  

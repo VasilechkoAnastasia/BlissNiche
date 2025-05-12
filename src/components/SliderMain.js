@@ -1,7 +1,6 @@
 import React, { useEffect, useRef } from "react";
-import './SliderMain.css';  // Если есть отдельный CSS для этого компонента
+import './SliderMain.css';  
 
-// Получаем изображения через props
 const SliderMain = ({ images }) => {
   const sliderRef = useRef(null);
   const btnLeftRef = useRef(null);
@@ -18,7 +17,6 @@ const SliderMain = ({ images }) => {
     let startX = null;
 
     if (sliderBody) {
-      // Клонирование слайдов
       for (let i = 0; i < slidesSetCount; i++) {
         slides.forEach((slide) => {
           const cloned = slide.cloneNode(true);
@@ -26,7 +24,6 @@ const SliderMain = ({ images }) => {
         });
       }
 
-      // Центрируем прокрутку
       sliderBody.scrollLeft = slideWidth * slides.length * Math.ceil(slidesSetCount / 2);
 
       const changeSlide = (newPosition) => {
@@ -95,17 +92,13 @@ const SliderMain = ({ images }) => {
             <div
               className="slider__item js-slide"
               key={i}
-              style={{ backgroundImage: `url(${image})` }} // Динамическое задание фона
+              style={{ backgroundImage: `url(${image})` }} 
             >
               <button className="buttonInSlider">Назва набору</button>
             </div>
           ))}
         </div>
       </div>
-
-      {/* <span className="slider__btn slider__btn--right js-btn-right" ref={btnRightRef} id="rightButton">
-        <img src="./button for slider.png" alt="Right Button"/>
-      </span> */}
       <span className="slider__btn slider__btn--right js-btn-right" ref={btnRightRef}>
         <img src="./button for slider.png" id="rightButton" />
       </span>
