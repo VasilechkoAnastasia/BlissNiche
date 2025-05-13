@@ -26,4 +26,28 @@
     font-size: 14px;
     color: #000;
   }
-  
+
+
+
+
+/*--------------------АДАПТИВ-----------------------*/
+
+  /* Адаптивность для ширины 428px и меньше */
+@media (max-width: 428px) {
+  .catalog-grid {
+    grid-template-columns: repeat(2, 1fr); /* Одна колонка на мобильных устройствах */
+    gap: 20px;
+  }
+
+  .catalog-title {
+    font-size: 24px; /* Немного уменьшен для мобильных */
+  }
+
+  .catalog-image {
+    max-height: 200px; /* Уменьшен для мобильных экранов */
+  }
+
+  .catalog-item-title {
+    font-size: 14px; /* Уменьшен для мобильных */
+  }
+}

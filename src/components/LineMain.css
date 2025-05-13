@@ -23,3 +23,15 @@
 .title-strip-item:hover {
   background-color: #e0e0e0;
 }
+
+
+
+
+
+
+
+@media (max-width: 428px) {
+  .title-strip {
+    display: none;
+  }
+}
