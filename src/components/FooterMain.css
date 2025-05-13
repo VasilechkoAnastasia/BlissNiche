@@ -161,3 +161,22 @@
       right: 10px;
     }
   } */ 
+
+
+
+
+
+  @media (max-width: 428px) {
+    .footer-column{
+      display: none;
+    }
+
+    .footer-button{
+      display: none;
+    }
+    
+    .footer-bottom-right{
+      display: none;
+    }
+  }
+
