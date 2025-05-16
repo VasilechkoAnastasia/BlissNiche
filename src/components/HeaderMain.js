@@ -1,7 +1,7 @@
 import React from 'react';
 import './HeaderMain.css'; 
 
-const HeaderMain = () => {
+export function HeaderMain() {
   return (
     <div className="app">
       <div className="strip">

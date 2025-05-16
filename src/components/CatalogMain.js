@@ -1,7 +1,7 @@
 import React from 'react';
 import './CatalogMain.css'; 
 
-const CatalogMain = () => {
+export function CatalogMain() {
   return (
     <section className="five-main-section">
       <p className="title-section-main">КАТАЛОГ</p>

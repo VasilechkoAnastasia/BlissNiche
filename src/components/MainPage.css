@@ -24,9 +24,6 @@
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    background-image: url('/public/Rectangle\ 15.png');
-    background-image: 1921px 1026px;  
-    background-repeat: no-repeat;
   }
   
   .wrap {
@@ -40,6 +37,13 @@
   
   .app {
     width: 1921px;
+  }
+
+  .background-img-main
+  {
+    background-image: url('/public/Rectangle\ 15.png');
+    background-image: 1921px 1026px;  
+    background-repeat: no-repeat; 
   }
   
   main {
@@ -213,6 +217,8 @@
   .second-main-section{
     margin-top: 350px;
   }
+
+
   
   
   

@@ -1,7 +1,7 @@
 import React, { useEffect, useRef } from "react";
 import './SliderMain.css';  
 
-const SliderMain = ({ images }) => {
+export function SliderMain({ images }){
   const sliderRef = useRef(null);
   const btnLeftRef = useRef(null);
   const btnRightRef = useRef(null);

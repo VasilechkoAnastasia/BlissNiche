@@ -1,7 +1,7 @@
 import React from 'react';
 import './LineMain.css'; 
 
-const LineMain = ({ items }) => {
+export function LineMain({ items }){
   return (
     <div className="title-strip">
       {items.map((item, index) => (

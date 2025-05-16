@@ -1,0 +1,60 @@
+.room-gallery-room {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 10px 0;
+    width: 100%;
+    scrollbar-width: thin; /* Для Firefox */
+    scrollbar-color: #888 #f1f1f1; /* Для Firefox */
+  }
+  
+  .room-gallery-item-room {
+    min-width: 200px;
+    flex-shrink: 0;
+    text-align: center;
+    border-radius: 0px;
+    overflow: hidden;
+  }
+  
+  .room-gallery-image-room {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .room-gallery-caption-room {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #333;
+  }
+  
+  /* Скрыть скроллбар для Webkit (Chrome, Safari) */
+  .room-gallery-room::-webkit-scrollbar-room {
+    height: 8px;
+  }
+  
+  .room-gallery-room::-webkit-scrollbar-track-room {
+    background: #f1f1f1;
+  }
+  
+  .room-gallery-room::-webkit-scrollbar-thumb-room {
+    background: #888;
+    border-radius: 4px;
+  }
+  
+  /* Адаптивность для мобильных устройств (например, до 428px) */
+  @media (max-width: 428px) {
+    .room-gallery-item-room {
+      min-width: 150px;
+    }
+  
+    .room-gallery-caption-room {
+      font-size: 12px;
+    }
+  }
+
+  
+
+
+
+
