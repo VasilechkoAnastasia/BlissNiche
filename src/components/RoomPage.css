@@ -2,10 +2,8 @@
     display: flex;
     overflow-x: auto;
     gap: 10px;
-    padding: 10px 0;
+    /* padding: 10px 0; */
     width: 100%;
-    scrollbar-width: thin; /* Для Firefox */
-    scrollbar-color: #888 #f1f1f1; /* Для Firefox */
   }
   
   .room-gallery-item-room {
@@ -58,3 +56,112 @@
 
 
 
+
+
+
+
+
+
+
+
+
+  .gallery-grid-room {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Две колонки одинаковой ширины */
+    grid-template-rows: auto auto; /* Две строки, высота определяется содержимым */
+    gap: 20px; /* Расстояние между элементами */
+    padding: 0px;
+  }
+  
+  .six-sections-room-photo1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .six-sections-room-photo2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  .six-sections-room-photo3 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .six-sections-room-photo4 {
+    grid-column: 2;
+    grid-row: 2;
+    transform: translateY(-202px);
+  }
+
+
+
+
+
+  .seven-sections-room-photo1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  .seven-sections-room-photo2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  
+  .seven-sections-room-photo3 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  
+  .seven-sections-room-photo4 {
+    grid-column: 2;
+    grid-row: 2;
+    transform: translateX(-524px);
+  }
+
+
+
+  .gallery-grid-room2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Две колонки одинаковой ширины */
+    grid-template-rows: auto auto; /* Две строки, высота определяется содержимым */
+    gap: 22px; /* Расстояние между элементами */
+    padding: 0px;
+  }
+
+  
+  
+  
+  /* Адаптивность для мобильных устройств (например, до 428px) */
+  @media (max-width: 428px) {
+    .gallery-grid-room {
+      grid-template-columns: 1fr; /* Одна колонка на мобильных */
+      grid-template-rows: auto auto auto auto; /* Четыре строки */
+      gap: 15px;
+    }
+  
+    .six-sections-room-photo1 {
+      grid-column: 1;
+      grid-row: 1;
+    }
+  
+    .six-sections-room-photo2 {
+      grid-column: 1;
+      grid-row: 2;
+    }
+  
+    .six-sections-room-photo3 {
+      grid-column: 1;
+      grid-row: 3;
+    }
+  
+    .six-sections-room-photo4 {
+      grid-column: 1;
+      grid-row: 4;
+      margin-top: -70px;
+    }
+  
+    img {
+      max-height: 200px;
+    }
+  }
