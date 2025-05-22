@@ -16,7 +16,7 @@ export function HeaderMain() {
         <nav>
           <div className="header-left">
             <a className="action-button" href="#">☰<br />Меню</a>
-            <img src="./Union.png" alt="Logo" />
+            <img src="./Union.png" />
             <a className="action-button" href="#">Товари</a>
             <a className="action-button" href="#">Книги</a>
             <a className="action-button" href="#">Дизайн</a>
@@ -24,14 +24,14 @@ export function HeaderMain() {
 
           <div className="header-right">
             <a className="action-button" href="#">
-              <img src="./uil_user.png" alt="Location" /> Київ
+              <img src="./uil_user.png" /> Київ
             </a>
             <a className="action-button" href="#">
-              <img src="./uil_user_profile.png" alt="Profile" /> Привіт! Увійдіть В Систему
+              <img src="./uil_user_profile.png" /> Привіт! Увійдіть В Систему
             </a>
             <a className="action-button" href="#">
-              <img src="./basket_for_shopping.png" alt="Cart" />
-              <img src="./like.png" alt="Wishlist" />
+              <img src="./basket_for_shopping.png" />
+              <img src="./like.png" />
             </a>
           </div>
         </nav>
@@ -39,7 +39,7 @@ export function HeaderMain() {
 
       <header>
         <div className="search-bar">
-          <img src="./Group.png" className="search-icon" alt="Search" />
+          <img src="./Group.png" className="search-icon" />
           <input type="text" placeholder="Пошук" />
         </div>
       </header>

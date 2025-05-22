@@ -83,7 +83,7 @@ export function SliderMain({ images }){
   return (
     <div className="slider__container js-slider-element" ref={sliderRef}>
       <span className="slider__btn slider__btn--left js-btn-left" ref={btnLeftRef}>
-        <img src="./button for slider.png" alt="Left Button" id="leftButton" />
+        <img src="./button for slider.png" id="leftButton" />
       </span>
 
       <div className="slider__wrapper">

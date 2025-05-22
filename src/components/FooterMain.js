@@ -62,14 +62,14 @@ export function FooterMain() {
         <div className="footer-bottom">
           <div className="footer-bottom-left">
             <div className="footer-icons">
-              <a href="#social1"><img src="instagram-icon.png" alt="Instagram" /></a>
-              <a href="#social2"><img src="twitter-icon.png" alt="Twitter" /></a>
-              <a href="#social3"><img src="telegram-icon.png" alt="Telegram" /></a>
-              <img src="visa-icon.png" alt="Visa" />
-              <img src="mastercard-icon.png" alt="Mastercard" />
-              <img src="maestro-icon.png" alt="Maestro" />
-              <img src="paypal-icon.png" alt="Paypal" />
-              <img src="applepay-icon.png" alt="Apple Pay" />
+              <a href="#social1"><img src="instagram-icon.png" /></a>
+              <a href="#social2"><img src="twitter-icon.png" /></a>
+              <a href="#social3"><img src="telegram-icon.png" /></a>
+              <img src="visa-icon.png"/>
+              <img src="mastercard-icon.png" />
+              <img src="maestro-icon.png" />
+              <img src="paypal-icon.png" />
+              <img src="applepay-icon.png" />
             </div>
           </div>
 
@@ -87,7 +87,7 @@ export function FooterMain() {
 
       <div className="footer-button">
         <a href="#top">
-          <img src="button for slider.png" alt="Scroll to top" />
+          <img src="button for slider.png"/>
         </a>
       </div>
     </footer>

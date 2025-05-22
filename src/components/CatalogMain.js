@@ -8,75 +8,75 @@ export function CatalogMain() {
 
       <div className="catalog-grid">
         <div className="catalog-item">
-          <img src="five-section-katalog1.png" className="catalog-image" alt="Диван" />
+          <img src="five-section-katalog1.png" className="catalog-image" />
           <p className="catalog-title">ДИВАН</p>
         </div>
         <div className="catalog-item">
-          <img src="five-section-katalog2.png" className="catalog-image" alt="Крісло декоративне" />
+          <img src="five-section-katalog2.png" className="catalog-image" />
           <p className="catalog-title">КРІСЛО ДЕКОРАТИВНЕ</p>
         </div>
         <div className="catalog-item">
-          <img src="five-section-katalog3.png" className="catalog-image" alt="Софа" />
+          <img src="five-section-katalog3.png" className="catalog-image" />
           <p className="catalog-title">СОФА</p>
         </div>
         <div className="catalog-item">
-          <img src="five-section-katalog4.png" className="catalog-image" alt="Комод" />
+          <img src="five-section-katalog4.png" className="catalog-image" />
           <p className="catalog-title">КОМОД</p>
         </div>
         <div className="catalog-item">
-          <img src="five-section-katalog5.png" className="catalog-image" alt="Крісло відпочинкове" />
+          <img src="five-section-katalog5.png" className="catalog-image" />
           <p className="catalog-title">КРІСЛО ВІДПОЧИНКОВЕ</p>
         </div>
         <div className="catalog-item">
-          <img src="five-section-katalog6.png" className="catalog-image" alt="Стіл письмовий" />
+          <img src="five-section-katalog6.png" className="catalog-image" />
           <p className="catalog-title">СТІЛ ПИСЬМОВИЙ</p>
         </div>
         <div className="catalog-item">
-          <img src="five-section-katalog7.png" className="catalog-image" alt="Стіл кутовий" />
+          <img src="five-section-katalog7.png" className="catalog-image" />
           <p className="catalog-title">СТІЛ КУТОВИЙ</p>
         </div>
         <div className="catalog-item">
-          <img src="five-section-katalog8.png" className="catalog-image" alt="Крісло з подушками" />
+          <img src="five-section-katalog8.png" className="catalog-image" />
           <p className="catalog-title">КРІСЛО З ПОДУШКАМИ</p>
         </div>
         <div className="catalog-item">
-          <img src="five-section-katalog9.png" className="catalog-image" alt="Стіл обідній" />
+          <img src="five-section-katalog9.png" className="catalog-image" />
           <p className="catalog-title">СТІЛ ОБІДНІЙ</p>
         </div>
         <div className="catalog-item">
-          <img src="five-section-katalog10.png" className="catalog-image" alt="Диван компактний" />
+          <img src="five-section-katalog10.png" className="catalog-image" />
           <p className="catalog-title">ДИВАН КОМПАКТНИЙ</p>
         </div>
         <div className="catalog-item">
-          <img src="five-section-katalog11.png" className="catalog-image" alt="Табурет" />
+          <img src="five-section-katalog11.png" className="catalog-image" />
           <p className="catalog-title">ТАБУРЕТ</p>
         </div>
         <div className="catalog-item">
-          <img src="five-section-katalog12.png" className="catalog-image" alt="Крісло компактне" />
+          <img src="five-section-katalog12.png" className="catalog-image" />
           <p className="catalog-title">КРІСЛО КОМПАКТНЕ</p>
         </div>
         <div className="catalog-item">
-          <img src="five-section-katalog13.png" className="catalog-image" alt="Крісло стильне" />
+          <img src="five-section-katalog13.png" className="catalog-image" />
           <p className="catalog-title">КРІСЛО СТИЛЬНЕ</p>
         </div>
         <div className="catalog-item">
-          <img src="five-section-katalog14.png" className="catalog-image" alt="Софа-ліжко" />
+          <img src="five-section-katalog14.png" className="catalog-image" />
           <p className="catalog-title">СОФА-ЛІЖКО</p>
         </div>
         <div className="catalog-item">
-          <img src="five-section-katalog15.png" className="catalog-image" alt="Крісло елегантне" />
+          <img src="five-section-katalog15.png" className="catalog-image" />
           <p className="catalog-title">КРІСЛО ЕЛЕГАНТНЕ</p>
         </div>
         <div className="catalog-item">
-          <img src="five-section-katalog16.png" className="catalog-image" alt="Диван двомісний" />
+          <img src="five-section-katalog16.png" className="catalog-image" />
           <p className="catalog-title">ДИВАН ДВОМІСНИЙ</p>
         </div>
         <div className="catalog-item">
-          <img src="five-section-katalog17.png" className="catalog-image" alt="Стілець журнальний" />
+          <img src="five-section-katalog17.png" className="catalog-image" />
           <p className="catalog-title">СТІЛЕЦЬ ЖУРНАЛЬНИЙ</p>
         </div>
         <div className="catalog-item">
-          <img src="five-section-katalog18.png" className="catalog-image" alt="Стіл журнальний" />
+          <img src="five-section-katalog18.png" className="catalog-image" />
           <p className="catalog-title">СТІЛ ЖУРНАЛЬНИЙ</p>
         </div>
       </div>

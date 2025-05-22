@@ -4,7 +4,6 @@ import SliderMain from './SliderMain.js';
 import HeaderMain from './HeaderMain.js';
 import CatalogMain from './CatalogMain.js';
 import FooterMain from './FooterMain.js';
-import LineMain from './LineMain.js';
 
 export function RoomPage() {
     const sliderImagesRoom1 = [
@@ -33,31 +32,31 @@ export function RoomPage() {
                         <SliderMain images={sliderImagesRoom1} />
                         <div className="room-gallery-room">
                             <div className="room-gallery-item-room">
-                                <img src="one-room1.png" alt="Комната 1" className="room-gallery-image-room" />
+                                <img src="one-room1.png" className="room-gallery-image-room" />
                                 <p className="room-gallery-caption-room">Назва роздiлу</p>
                             </div>
                             <div className="room-gallery-item-room">
-                                <img src="one-room2.png" alt="Комната 2" className="room-gallery-image-room" />
+                                <img src="one-room2.png" className="room-gallery-image-room" />
                                 <p className="room-gallery-caption-room">Назва роздiлу</p>
                             </div>
                             <div className="room-gallery-item-room">
-                                <img src="one-room3.png" alt="Комната 3" className="room-gallery-image-room" />
+                                <img src="one-room3.png" className="room-gallery-image-room" />
                                 <p className="room-gallery-caption-room">Назва роздiлу</p>
                             </div>
                             <div className="room-gallery-item-room">
-                                <img src="one-room4.png" alt="Комната 4" className="room-gallery-image-room" />
+                                <img src="one-room4.png" className="room-gallery-image-room" />
                                 <p className="room-gallery-caption-room">Назва роздiлу</p>
                             </div>
                             <div className="room-gallery-item-room">
-                                <img src="one-room5.png" alt="Комната 5" className="room-gallery-image-room" />
+                                <img src="one-room5.png" className="room-gallery-image-room" />
                                 <p className="room-gallery-caption-room">Назва роздiлу</p>
                             </div>
                             <div className="room-gallery-item-room">
-                                <img src="one-room6.png" alt="Комната 6" className="room-gallery-image-room" />
+                                <img src="one-room6.png" className="room-gallery-image-room" />
                                 <p className="room-gallery-caption-room">Назва роздiлу</p>
                             </div>
                             <div className="room-gallery-item-room">
-                                <img src="one-room7.png" alt="Комната 7" className="room-gallery-image-room" />
+                                <img src="one-room7.png" className="room-gallery-image-room" />
                                 <p className="room-gallery-caption-room">Назва роздiлу</p>
                             </div>
                         </div>
@@ -89,31 +88,31 @@ export function RoomPage() {
                         </div>
                         <div className="room-gallery-room">
                             <div className="room-gallery-item-room">
-                                <img src="one-room1.png" alt="Комната 1" className="room-gallery-image-room" />
+                                <img src="one-room1.png" className="room-gallery-image-room" />
                                 <p className="room-gallery-caption-room">Назва роздiлу</p>
                             </div>
                             <div className="room-gallery-item-room">
-                                <img src="one-room2.png" alt="Комната 2" className="room-gallery-image-room" />
+                                <img src="one-room2.png" className="room-gallery-image-room" />
                                 <p className="room-gallery-caption-room">Назва роздiлу</p>
                             </div>
                             <div className="room-gallery-item-room">
-                                <img src="one-room3.png" alt="Комната 3" className="room-gallery-image-room" />
+                                <img src="one-room3.png" className="room-gallery-image-room" />
                                 <p className="room-gallery-caption-room">Назва роздiлу</p>
                             </div>
                             <div className="room-gallery-item-room">
-                                <img src="one-room4.png" alt="Комната 4" className="room-gallery-image-room" />
+                                <img src="one-room4.png" className="room-gallery-image-room" />
                                 <p className="room-gallery-caption-room">Назва роздiлу</p>
                             </div>
                             <div className="room-gallery-item-room">
-                                <img src="one-room5.png" alt="Комната 5" className="room-gallery-image-room" />
+                                <img src="one-room5.png" className="room-gallery-image-room" />
                                 <p className="room-gallery-caption-room">Назва роздiлу</p>
                             </div>
                             <div className="room-gallery-item-room">
-                                <img src="one-room6.png" alt="Комната 6" className="room-gallery-image-room" />
+                                <img src="one-room6.png" className="room-gallery-image-room" />
                                 <p className="room-gallery-caption-room">Назва роздiлу</p>
                             </div>
                             <div className="room-gallery-item-room">
-                                <img src="one-room7.png" alt="Комната 7" className="room-gallery-image-room" />
+                                <img src="one-room7.png" className="room-gallery-image-room" />
                                 <p className="room-gallery-caption-room">Назва роздiлу</p>
                             </div>
                         </div>
