@@ -42,19 +42,23 @@ export function FooterMain() {
             </ul>
           </div>
           <div className="footer-column">
-            <h3 className="footer-column-title">Заголовок підрозділу</h3>
+            <h3 className="footer-column-title">Товари</h3>
             <ul className="footer-column-list">
-              <li><a href="#link1">Зміст підтеми</a></li>
-              <li><a href="#link2">Зміст підтеми</a></li>
-              <li><a href="#link3">Зміст підтеми</a></li>
+              <li><a href="#link1">Товари з одного набору</a></li>
+              <li><a href="#link2">Новинки</a></li>
+              <li><a href="#link3">Затишні набори</a></li>
+              <li><a href="#link3">Товари з одного набору</a></li>
             </ul>
           </div>
           <div className="footer-column">
-            <h3 className="footer-column-title">Заголовок підрозділу</h3>
+            <h3 className="footer-column-title">Ідеї</h3>
             <ul className="footer-column-list">
-              <li><a href="#link1">Зміст підтеми</a></li>
-              <li><a href="#link2">Зміст підтеми</a></li>
-              <li><a href="#link3">Зміст підтеми</a></li>
+              <li><a href="#link1">Ідеї для оформлення</a></li>
+              <li><a href="#link2">Ідеї</a></li>
+              <li><a href="#link3">Ідеї для оформлення</a></li>
+              <li><a href="#link2">Ідеї</a></li>
+              <li><a href="#link2">Ідеї</a></li>
+              <li><a href="#link3">Ідеї для оформлення</a></li>
             </ul>
           </div>
         </div>
@@ -65,18 +69,18 @@ export function FooterMain() {
               <a href="#social1"><img src="instagram-icon.png" /></a>
               <a href="#social2"><img src="twitter-icon.png" /></a>
               <a href="#social3"><img src="telegram-icon.png" /></a>
-              <img src="visa-icon.png"/>
-              <img src="mastercard-icon.png" />
-              <img src="maestro-icon.png" />
-              <img src="paypal-icon.png" />
-              <img src="applepay-icon.png" />
+              <a href="#social4"><img src="visa-icon.png"/></a>
+              <a href="#social4"><img src="mastercard-icon.png" /></a>
+              <a href="#social4"><img src="maestro-icon.png" /></a>
+              <a href="#social4"><img src="paypal-icon.png" /></a>
+              <a href="#social4"><img src="applepay-icon.png" /></a>
             </div>
           </div>
 
           <div className="footer-bottom-right">
             <ul className="footer-bottom-links">
               <li><a href="#link1">Товари</a></li>
-              <li><a href="#link2">Книги</a></li>
+              <li><a href="#link2">Кімнати</a></li>
               <li><a href="#link3">Дизайн</a></li>
               <li><a href="#link4">Місто</a></li>
               <li><a href="#link5">Вхід</a></li>

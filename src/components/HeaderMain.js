@@ -18,7 +18,7 @@ export function HeaderMain() {
             <a className="action-button" href="#">☰<br />Меню</a>
             <img src="./Union.png" />
             <a className="action-button" href="#">Товари</a>
-            <a className="action-button" href="#">Книги</a>
+            <a className="action-button" href="#">Кімнати</a>
             <a className="action-button" href="#">Дизайн</a>
           </div>
 
@@ -27,7 +27,7 @@ export function HeaderMain() {
               <img src="./uil_user.png" /> Київ
             </a>
             <a className="action-button" href="#">
-              <img src="./uil_user_profile.png" /> Привіт! Увійдіть В Систему
+              <img src="./uil_user_profile.png" /> Увійдіть В Систему
             </a>
             <a className="action-button" href="#">
               <img src="./basket_for_shopping.png" />

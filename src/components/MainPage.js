@@ -108,6 +108,7 @@ export function MainPage() {
             <section className="second-main-section">
               <p className="title-section-main">ЗНАЙДИ ТЕ, ШО ШУКАЄШ!</p>
               <div className="promo">
+                
                 <div className="row">
                   <div className="card">
                     <img src="PhotoSecondSection1.png" />
@@ -116,6 +117,7 @@ export function MainPage() {
                       <img src="./button for slider.png" />
                     </div>
                   </div>
+                  
                   <div className="card">
                     <img src="PhotoSecondSection2.png" />
                     <div className="bar">
@@ -133,7 +135,9 @@ export function MainPage() {
                     </div>
                   </div>
                 </div>
+
               </div>
+
             </section>
 
 

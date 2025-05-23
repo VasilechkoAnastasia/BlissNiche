@@ -82,8 +82,8 @@
   }
   
   .footer-icons img {
-    width: 30px;
-    height: 30px;
+    /* width: 30px;
+    height: 30px; */
   }
   
   .footer-bottom-right {
@@ -114,10 +114,14 @@
   .footer-button {
     position: absolute;
     bottom: 20px;
-    right: 20px;
+    /* right: 20px; */
+    left: 40px;
+    bottom: 50px;
+    transform: rotate(-90deg);
   }
+
   
-  .footer-button a {
+  /* .footer-button a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,13 +130,16 @@
     background-color: #000;
     border-radius: 50%;
     text-decoration: none;
-  }
+  } */
   
-  .footer-button img {
+  /* .footer-button img {
     width: 24px;
     height: 24px;
     filter: invert(1); 
-  }
+  } */
+
+
+
  
   /* Адаптивность */
   /* @media (max-width: 768px) {
