@@ -111,27 +111,27 @@ export function MainPage() {
                 
                 <div className="row">
                   <div className="card">
-                    <img src="PhotoSecondSection1.png" />
+                    <img src="PhotoSecondSection1.png" className="SecondSectPhoto1"/>
                     <div className="bar">
                       <span>НАША НОВА КОЛЛЕКЦІЯ</span>
-                      <img src="./button for slider.png" />
+                      <img src="./button for slider.png" className="ButtonSliderSecond"/>
                     </div>
                   </div>
-                  
+
                   <div className="card">
-                    <img src="PhotoSecondSection2.png" />
+                    <img src="PhotoSecondSection2.png" className="SecondSectPhoto2" />
                     <div className="bar">
                       <span>НАШІ НАЙКРАЩІ ПРОПОЗИЦІЇ</span>
-                      <img src="./button for slider.png" />
+                      <img src="./button for slider.png"className="ButtonSliderSecond" />
                     </div>
                   </div>
                 </div>
 
                 <div className="row">
                   <div className="card full">
-                    <img src="PhotoSecondSection3.png" style={{ width: '1480px' }} />
+                    <img src="PhotoSecondSection3.png" style={{ width: '1480px' }} className='SecondSectPhoto3' />
                     <div className="bar right">
-                      <img src="./button for slider.png" />
+                      <img src="./button for slider.png" className="ButtonSliderSecond"/>
                     </div>
                   </div>
                 </div>
@@ -251,6 +251,7 @@ export function MainPage() {
                 </div>
               </div>
             </section>
+            
           </main>
 
 
