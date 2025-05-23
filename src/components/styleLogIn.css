@@ -216,18 +216,6 @@
         line-height: 100%;
         letter-spacing: 0%;
     }
-
-
-    /* div {
-        display: flex;
-        flex-direction: row;
-    }
-
-    img {
-
-
-        object-fit: cover;
-    } */
 }
 
 @media(min-width: 933px) and (max-width: 1366px) {
@@ -477,18 +465,6 @@
 
         line-height: 100%;
         letter-spacing: 0%;
-    }
-
-
-    div {
-        display: flex;
-        flex-direction: row;
-    }
-
-    img {
-
-
-        object-fit: cover;
     }
 }
 
@@ -756,18 +732,6 @@
 
         line-height: 100%;
         letter-spacing: 0%;
-    }
-
-
-    div {
-        display: flex;
-        flex-direction: row;
-    }
-
-    img {
-
-
-        object-fit: cover;
     }
 }
 
