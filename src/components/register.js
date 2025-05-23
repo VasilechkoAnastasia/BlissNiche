@@ -1,11 +1,13 @@
 import React from "react";
 import './styleRegister.css';
+import { Link } from 'react-router-dom';
 
-export function Register() {
+export default function Register() {
     return (
         <div id="wrappRegister-DD">
             <div id="left-DD">
-                <button id="backBnt-DD"> <img src="backBtn.png" alt=""></img></button>
+                {/* <button id="backBnt-DD"> <img src="backBtn-DD.png" alt=""></img></button> */}
+                <Link id='backBnt-DD' to='/'><img src="backBtn-DD.png" alt=""/></Link>
             </div>
 
             <div id="right-DD">

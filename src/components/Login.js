@@ -8,7 +8,7 @@ export default function Login() {
         <div id="wrappLogIn-DD">
             <div id="leftL-DD">
                 <button id="backBnt-DD">
-                    <img src="backBtn.png" alt="Back" />
+                    <img src="backBtn-DD.png" alt="Back" />
                 </button>
                 <div id="divForH1-DD">
                     <h1 id="titleLogIn-DD">Заповніть вхід до облікового запису</h1>
@@ -32,7 +32,7 @@ export default function Login() {
                     <div id="pass-DD">
                         <input type="password" id="inputPass-DD" /><br />
                         <button id="buttonPass-DD">
-                            <img src="/Vector.png" alt="Show password" id="ies-DD" />
+                            <img src="/Vector-DD.png" alt="Show password" id="ies-DD" />
                         </button>
                     </div>
 
@@ -49,13 +49,13 @@ export default function Login() {
                             <p>Зберегти інформацію</p>
                         </div>
                         <div id="divForInfo-DD">
-                            <img src="/info.png" alt="Info" />
+                            <img src="/info-DD.png" alt="Info" />
                         </div>
                     </div>
                     <br />
 
                     <button className="Akk-DD">Продовжити</button>
-                    <Link id='LinkStyle-DD' to='./register'> Створити аккаунт </Link>
+                    <Link id='LinkStyle-DD' to='/register'> Створити аккаунт </Link>
                 </form>
             </div>
         </div>

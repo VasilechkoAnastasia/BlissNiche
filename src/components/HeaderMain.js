@@ -1,5 +1,6 @@
 import React from 'react';
-import './HeaderMain.css'; 
+import './HeaderMain.css';
+import { Link } from 'react-router-dom';
 
 export function HeaderMain() {
   return (
@@ -18,17 +19,24 @@ export function HeaderMain() {
             <a className="action-button" href="#">☰<br />Меню</a>
             <img src="./Union.png" />
             <a className="action-button" href="#">Товари</a>
-            <a className="action-button" href="#">Кімнати</a>
-            <a className="action-button" href="#">Дизайн</a>
+            <a className="action-button" href="#"><Link to='/roompage' style={{ textDecoration: "none", color: "#5F5F5F" }}>Кімнати </Link></a>
+            <a className="action-button" href="#"><Link to='/design' style={{ textDecoration: "none", color: "#5F5F5F" }}>Дизайн</Link></a>
           </div>
 
           <div className="header-right">
             <a className="action-button" href="#">
               <img src="./uil_user.png" /> Київ
             </a>
+            {/* <a className="action-button" href="#">
+              <img src="./uil_user_profile.png" /> Увійдіть В Систему   
+            </a> */}
+
             <a className="action-button" href="#">
-              <img src="./uil_user_profile.png" /> Увійдіть В Систему
+              <img src="./uil_user_profile.png" /> <Link to='/login' style={{ textDecoration: "none", color: "#5F5F5F" }}>Увійдіть В Систему </Link> 
             </a>
+
+
+
             <a className="action-button" href="#">
               <img src="./basket_for_shopping.png" />
               <img src="./like.png" />

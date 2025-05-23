@@ -503,6 +503,11 @@ h1 {
     margin-right: 250px;
   }
 
+  .cta-primary
+  {
+    color: white;
+  }
+
 
   .product-cards {
     padding-top: 150px;

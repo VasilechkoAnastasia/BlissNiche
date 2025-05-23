@@ -5,6 +5,7 @@ import HeaderMain from './HeaderMain.js';
 import CatalogMain from './CatalogMain.js';
 import FooterMain from './FooterMain.js';
 import LineMain from './LineMain.js';
+import { Link } from 'react-router-dom';
 
 export function MainPage() {
   const products = [{ id: 1, title: 'ПОДУШКИ', subtitle: 'спальня кімната вітальня', price: '12$', tag: 'TOP', image: 'Rectangle\ 28.png' },
@@ -77,7 +78,8 @@ export function MainPage() {
                 <div className="left-content">
                   <h1 className="main-maintext">ВСЕ ДЛЯ ДОМУ</h1>
                   <div className="cta-buttons">
-                    <button className="cta-primary">СТВОРИТИ АКАУНТ ТА ПОЧАТИ!</button>
+                    {/* <button className="cta-primary">СТВОРИТИ АКАУНТ ТА ПОЧАТИ!</button> */}
+                    <button className="cta-primary"><Link to='/register' style={{ textDecoration: "none", color: "white" }}>СТВОРИТИ АКАУНТ ТА ПОЧАТИ!</Link></button>
                     <button className="cta-secondary">КАТАЛОГ&#9662;</button>
                   </div>
                   <div className="product-cards">
