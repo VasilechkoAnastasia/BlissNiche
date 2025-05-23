@@ -1,4 +1,42 @@
-.first-room-section{
+
+.gallery-second-section-grid-room {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 15px;
+  padding: 0px;
+}
+
+.room-item-second-section {
+  text-align: left;
+}
+
+.four-sections-room-photo {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  transform: translateX(-20px);
+}
+
+.room-caption-second-section {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 5px 0;
+  color: #000;
+}
+
+.room-description-second-section {
+  font-size: 16px;
+  color: #000;
+  margin: 5px 0;
+}
+
+.room-price-second-section {
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+  margin: 5px 0;
 }
 
 
@@ -9,170 +47,272 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .room-gallery-room {
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
-    /* padding: 10px 0; */
-    width: 100%;
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  width: 100%;
+}
+
+.room-gallery-item-room {
+  min-width: 200px;
+  flex-shrink: 0;
+  text-align: center;
+  border-radius: 0px;
+  overflow: hidden;
+}
+
+.room-gallery-image-room {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.room-gallery-caption-room {
+  font-size: 14px;
+  margin: 5px 0;
+  color: #333;
+}
+
+.room-gallery-room::-webkit-scrollbar-track-room {
+  background: #f1f1f1;
+}
+
+.room-gallery-room::-webkit-scrollbar-thumb-room {
+  background: #888;
+  border-radius: 4px;
+}
+
+.gallery-grid-room {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  gap: 20px;
+  padding: 0px;
+}
+
+.six-sections-room-photo1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.six-sections-room-photo2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.six-sections-room-photo3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.six-sections-room-photo4 {
+  grid-column: 2;
+  grid-row: 2;
+  transform: translateY(-202px);
+}
+
+.seven-sections-room-photo1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.seven-sections-room-photo2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.seven-sections-room-photo3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.seven-sections-room-photo4 {
+  grid-column: 2;
+  grid-row: 2;
+  transform: translateX(-524px);
+}
+
+.gallery-grid-room2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 22px;
+  padding: 0px;
+}
+
+
+
+
+
+
+
+/*-------------------АДАПТИВ-------------------*/
+@media (max-width: 428px) {
+  /* .gallery-grid-room {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 15px;
   }
-  
-  .room-gallery-item-room {
-    min-width: 200px;
-    flex-shrink: 0;
-    text-align: center;
-    border-radius: 0px;
-    overflow: hidden;
-  }
-  
-  .room-gallery-image-room {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-  }
-  
-  .room-gallery-caption-room {
-    font-size: 14px;
-    margin: 5px 0;
-    color: #333;
-  }
-  
-  /* Скрыть скроллбар для Webkit (Chrome, Safari) */
-  .room-gallery-room::-webkit-scrollbar-room {
-    height: 8px;
-  }
-  
-  .room-gallery-room::-webkit-scrollbar-track-room {
-    background: #f1f1f1;
-  }
-  
-  .room-gallery-room::-webkit-scrollbar-thumb-room {
-    background: #888;
-    border-radius: 4px;
-  }
-  
-  /* Адаптивность для мобильных устройств (например, до 428px) */
-  @media (max-width: 428px) {
-    .room-gallery-item-room {
-      min-width: 150px;
-    }
-  
-    .room-gallery-caption-room {
-      font-size: 12px;
-    }
-  }
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-  .gallery-grid-room {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* Две колонки одинаковой ширины */
-    grid-template-rows: auto auto; /* Две строки, высота определяется содержимым */
-    gap: 20px; /* Расстояние между элементами */
-    padding: 0px;
-  }
-  
   .six-sections-room-photo1 {
     grid-column: 1;
     grid-row: 1;
   }
-  
+
   .six-sections-room-photo2 {
-    grid-column: 2;
-    grid-row: 1;
+    grid-column: 1;
+    grid-row: 2;
   }
-  
+
   .six-sections-room-photo3 {
     grid-column: 1;
-    grid-row: 2;
+    grid-row: 3;
   }
-  
+
   .six-sections-room-photo4 {
-    grid-column: 2;
-    grid-row: 2;
-    transform: translateY(-202px);
-  }
-
-
-
-
-
-  .seven-sections-room-photo1 {
     grid-column: 1;
-    grid-row: 1;
+    grid-row: 4;
+    margin-top: -70px;
   }
+
+  img {
+    max-height: 200px;
+  } */
+
   
-  .seven-sections-room-photo2 {
-    grid-column: 2;
-    grid-row: 1;
+
+
+
+
+  
+  .title-section-main {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #000;
   }
-  
-  .seven-sections-room-photo3 {
-    grid-column: 1;
-    grid-row: 2;
+
+  .gallery-grid-room {
+    display: flex;
+    flex-direction: column; /* Изображения в столбец, как на фото */
+    gap: 15px; /* Отступ между изображениями */
+    padding: 0;
   }
-  
-  .seven-sections-room-photo4 {
-    grid-column: 2;
-    grid-row: 2;
-    transform: translateX(-524px);
+
+  .six-sections-room-photo1,
+  .six-sections-room-photo2,
+  .six-sections-room-photo3,
+  .six-sections-room-photo4 {
+    width: 100%; /* Изображения занимают всю ширину */
+    height: 200px; /* Фиксированная высота, как на фото */
+    object-fit: cover; /* Сохранение пропорций изображения */
+    border-radius: 15px; /* Закругление углов, как на фото */
+    transform: none; /* Убираем трансформацию для адаптива */
   }
 
 
+
+
+
+  
+
+
+
+
+
+
+  .room-gallery-room {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    overflow-x: hidden;
+    padding: 0;
+    justify-content: center;
+  }
+
+  .room-gallery-item-room {
+    min-width: 0;
+    border-radius: 15px;
+  }
+
+  .room-gallery-image-room {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+  }
+
+  .room-gallery-caption-room {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #333;
+    text-align: center;
+  }
+
+  .room-gallery-item-room:last-child {
+    align-items: center;
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: 180px;
+    margin: 0 auto;
+  }
+
+
+  .seven-room-recomendation {
+    display: none;
+  }
+
+
+
+
+  
 
   .gallery-grid-room2 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Две колонки одинаковой ширины */
-    grid-template-rows: auto auto; /* Две строки, высота определяется содержимым */
-    gap: 22px; /* Расстояние между элементами */
-    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    /* Изображения в столбец, как на фото */
+    gap: 15px;
+    /* Меньший отступ между изображениями */
+    padding: 0;
   }
 
-  
-  
-  
-  /* Адаптивность для мобильных устройств (например, до 428px) */
-  @media (max-width: 428px) {
-    .gallery-grid-room {
-      grid-template-columns: 1fr; /* Одна колонка на мобильных */
-      grid-template-rows: auto auto auto auto; /* Четыре строки */
-      gap: 15px;
-    }
-  
-    .six-sections-room-photo1 {
-      grid-column: 1;
-      grid-row: 1;
-    }
-  
-    .six-sections-room-photo2 {
-      grid-column: 1;
-      grid-row: 2;
-    }
-  
-    .six-sections-room-photo3 {
-      grid-column: 1;
-      grid-row: 3;
-    }
-  
-    .six-sections-room-photo4 {
-      grid-column: 1;
-      grid-row: 4;
-      margin-top: -70px;
-    }
-  
-    img {
-      max-height: 200px;
-    }
+  .eight-sections-room-photo1,
+  .eight-sections-room-photo2,
+  .eight-sections-room-photo3 {
+    width: 100%;
+    /* Изображения занимают всю ширину */
+    height: 200px;
+    /* Фиксированная высота, как на фото */
+    object-fit: cover;
+    /* Сохранение пропорций изображения */
+    border-radius: 15px;
+    /* Закругление углов, как на фото */
   }
+
+
+
+
+
+
+
+
+}

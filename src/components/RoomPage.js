@@ -67,7 +67,32 @@ export function RoomPage() {
 
                     <section className="second-room-section">
                         <p className="title-section-main">Товари</p>
-
+                        <div className="gallery-second-section-grid-room">
+                            <div className="room-item-second-section">
+                                <img src="second-section-room1.png" className="four-sections-room-photo" />
+                                <p className="room-caption-second-section">НАЗВА ТОВАРУ</p>
+                                <p className="room-description-second-section">Опція товару опція товару опція товару</p>
+                                <p className="room-price-second-section">001$</p>
+                            </div>
+                            <div className="room-item-second-section">
+                                <img src="second-section-room2.png" className="four-sections-room-photo" />
+                                <p className="room-caption-second-section">НАЗВА ТОВАРУ</p>
+                                <p className="room-description-second-section">Опція товару опція товару опція товару</p>
+                                <p className="room-price-second-section">001$</p>
+                            </div>
+                            <div className="room-item-second-section">
+                                <img src="second-section-room1.png" className="four-sections-room-photo" />
+                                <p className="room-caption-second-section">НАЗВА ТОВАРУ</p>
+                                <p className="room-description-second-section">Опція товару опція товару опція товару</p>
+                                <p className="room-price-second-section">001$</p>
+                            </div>
+                            <div className="room-item-second-section">
+                                <img src="second-section-room2.png" className="four-sections-room-photo" />
+                                <p className="room-caption-second-section">НАЗВА ТОВАРУ</p>
+                                <p className="room-description-second-section">Опція товару опція товару опція товару</p>
+                                <p className="room-price-second-section">001$</p>
+                            </div>
+                        </div>
                     </section>
 
 
@@ -118,8 +143,6 @@ export function RoomPage() {
                         </div>
 
                     </section>
-
-
 
 
                     <section className="four-room-section">
@@ -173,6 +196,7 @@ export function RoomPage() {
                             допомогти вам створити затишний і функціональний простір. Ми пропонуємо гнучку доставку по всій Україні з можливістю вибору <br></br>
                             зручного часу, а також послуги професійної збірки меблів на місці, щоб ви могли насолоджуватися покупкою без зайвих турбот.</p>
                     </section>
+
                 </main>
 
 

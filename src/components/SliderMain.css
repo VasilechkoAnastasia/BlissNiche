@@ -71,4 +71,48 @@
     margin-left: 8px;
   }
 
-  
+
+
+
+
+
+  /*-------------------АДАПТИВ-------------------*/
+  @media (max-width: 428px) {
+    .slider {
+        justify-content: flex-start; 
+        overflow-x: auto; 
+        padding: 0 10px; 
+    }
+
+    .slider__wrapper {
+        width: auto; 
+        margin-left: 0; 
+    }
+
+    .slider__item {
+        width: 180px; 
+        height: 235px; 
+        margin-left: 10px; 
+    }
+
+    .buttonInSlider {
+        margin-top: 175px; 
+        padding: 10px; 
+        width: 120px; 
+        font-size: 12px; 
+    }
+
+    .slider__btn {
+        width: 25px; 
+        height: 25px;
+        margin: 0 10px; 
+    }
+
+    #rightButton {
+        margin-left: -50px;
+    }
+
+    #leftButton {
+        margin-left: 5px;
+    }
+}
