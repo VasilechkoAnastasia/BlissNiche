@@ -1,0 +1,818 @@
+@media(min-width: 1366px) {
+    #wrappLogIn-DD {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* LEFT */
+    #leftL-DD {
+        background-image: url(/public/2-DD.jpeg);
+        background-size: cover;
+        background-position: center;
+
+
+        height: 1050px;
+        width: 700px;
+    }
+
+    #backBnt-DD {
+        background: none;
+        border: none;
+
+        width: 100px;
+        height: 100px;
+        /* background: #bb5252; */
+    }
+
+    #divForH1-DD {
+        margin-top: 250px;
+        margin-left: 150px;
+    }
+
+    #titleLogIn-DD {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+
+        margin-left: -180px;
+        padding-right: 10px;
+    }
+
+    /* RIGHT */
+    #right-DD {
+        display: flex;
+        align-items: center;
+
+        margin-left: 20px;
+    }
+
+    /*-----------------*/
+    .text-DD {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 12px;
+
+        line-height: 100%;
+        letter-spacing: 0%;
+
+        color: #646464;
+
+    }
+
+    .text2-DD {
+        /* font-family: Montserrat; */
+        font-weight: 400;
+        font-size: 12px;
+
+        line-height: 100%;
+        letter-spacing: 0%;
+
+        text-decoration: underline;
+        text-decoration-style: solid;
+        text-decoration-offset: 0%;
+        text-decoration-thickness: 0%;
+
+        color: #646464;
+
+        margin-bottom: 40px;
+    }
+
+    /*-----------------*/
+
+    .inp-DD {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        /* font-weight: <weight>; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+
+        line-height: 100%;
+        letter-spacing: 0%;
+
+        color: black;
+
+    }
+
+    .first-DD {
+        width: 428px;
+        height: 50px;
+
+        top: 198px;
+        left: 746px;
+
+        border-radius: 5px;
+        border: 1px solid #646464;
+
+        font-size: 20px;
+
+        margin-bottom: 50px;
+    }
+
+    .first-DD:focus {
+        /* border: none; */
+        outline: none;
+    }
+
+    #ies-DD {
+        margin-top: 5px;
+
+        width: 35px;
+        height: 23px;
+    }
+
+
+    #pass-DD {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        width: 428px;
+        height: 50px;
+
+        top: 198px;
+        left: 746px;
+
+        border-radius: 5px;
+        border: 1px solid #646464;
+    }
+
+    #butforgotPass-DD {
+        text-decoration: underline;
+        color: #646464;
+    }
+
+    #divForBtnForgotPass-DD {
+        margin-bottom: 20px;
+    }
+
+    #saveInfo-DD {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+
+        width: 20px;
+        height: 20px;
+
+        border: none;
+    }
+
+    #inputPass-DD {
+        margin-top: 4px;
+
+        font-size: 20px;
+        border: none;
+
+        width: 385px;
+        height: 40px;
+    }
+
+    #divForInfo-DD {
+        margin-left: 200px;
+    }
+
+    #inputPass-DD:focus {
+        border: none;
+        outline: none;
+    }
+
+    #divForSaveInfo-DD {
+        display: flex;
+        align-items: center;
+    }
+
+    .Akk-DD {
+        width: 428px;
+        height: 50px;
+
+        top: 548px;
+        left: 746px;
+
+        border-radius: 30px;
+        border: none;
+
+        padding: 10px;
+        gap: 10px;
+        background: #000000;
+
+        font-family: Montserrat;
+        font-weight: 600px;
+        font-size: 14px;
+
+        line-height: 100%;
+        letter-spacing: 0%;
+
+        text-align: center;
+        text-transform: uppercase;
+
+        color: white;
+
+        margin-bottom: 50px;
+    }
+
+    .pMa-DD {
+        font-family: Montserrat;
+        font-weight: 600px;
+        font-size: 14px;
+
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+
+    /* div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    img {
+
+
+        object-fit: cover;
+    } */
+}
+
+@media(min-width: 933px) and (max-width: 1366px) {
+    #wrappLogIn-DD {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    /* LEFT */
+    #leftL-DD {
+        background-image: url(/public/2-DD.jpeg);
+        background-size: cover;
+        background-position: center;
+
+
+        height: 1050px;
+        width: 400px;
+    }
+
+    #backBnt-DD {
+        background: none;
+        border: none;
+
+        width: 100px;
+        height: 100px;
+        /* background: #bb5252; */
+    }
+
+    #divForH1-DD {
+        margin-top: 250px;
+        /* margin-left: 20px; */
+    }
+
+    #titleLogIn {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+
+    }
+
+    /* RIGHT */
+    #right-DD {
+        display: flex;
+        align-items: center;
+
+        margin-left: 20px;
+    }
+
+    /*-----------------*/
+    .text-DD {
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 12px;
+
+        line-height: 100%;
+        letter-spacing: 0%;
+
+        margin-top: 100px;
+
+        color: #646464;
+    }
+
+    .text2-DD {
+        /* font-family: Montserrat; */
+        font-weight: 400;
+        font-size: 12px;
+
+        line-height: 100%;
+        letter-spacing: 0%;
+
+        text-decoration: underline;
+        text-decoration-style: solid;
+        text-decoration-offset: 0%;
+        text-decoration-thickness: 0%;
+
+        color: #646464;
+
+        margin-bottom: 40px;
+    }
+
+    /*-----------------*/
+
+    .inp-DD {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        /* font-weight: <weight>; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+
+        line-height: 100%;
+        letter-spacing: 0%;
+
+        color: black;
+
+    }
+
+
+    .first-DD {
+        width: 428px;
+        height: 50px;
+
+        top: 198px;
+        left: 746px;
+
+        border-radius: 5px;
+        border: 1px solid #646464;
+
+        font-size: 20px;
+
+        margin-bottom: 50px;
+    }
+
+    .first-DD:focus {
+        /* border: none; */
+        outline: none;
+    }
+
+    #ies-DD {
+        margin-top: 5px;
+
+        width: 35px;
+        height: 23px;
+    }
+
+    #buttonPass-DD {
+        border: none;
+    }
+
+    #pass-DD {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        width: 428px;
+        height: 50px;
+
+        top: 198px;
+        left: 746px;
+
+        border-radius: 5px;
+        border: 1px solid #646464;
+    }
+
+    #butforgotPass-DD {
+        text-decoration: underline;
+        color: #646464;
+    }
+
+    #divForBtnForgotPass-DD {
+        margin-bottom: 20px;
+    }
+
+    #saveInfo-DD {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+
+        width: 20px;
+        height: 20px;
+
+        border: none;
+    }
+
+    #inputPass-DD {
+        margin-top: 4px;
+
+        font-size: 20px;
+        border: none;
+
+        width: 385px;
+        height: 40px;
+    }
+
+    #divForInfo-DD {
+        margin-left: 200px;
+    }
+
+    #inputPass-DD:focus {
+        border: none;
+        outline: none;
+    }
+
+    #divForSaveInfo-DD {
+        display: flex;
+        align-items: center;
+    }
+
+    .Akk-DD {
+        width: 428px;
+        height: 50px;
+
+        top: 548px;
+        left: 746px;
+
+        border-radius: 30px;
+        border: none;
+
+        padding: 10px;
+        gap: 10px;
+        background: #000000;
+
+        font-family: Montserrat;
+        font-weight: 600px;
+        font-size: 14px;
+
+        line-height: 100%;
+        letter-spacing: 0%;
+
+        text-align: center;
+        text-transform: uppercase;
+
+        color: white;
+
+        margin-bottom: 50px;
+    }
+
+    .Ma-DD {
+        background: white;
+
+        width: 428px;
+        height: 50px;
+
+        top: 713px;
+        left: 747px;
+
+        border-radius: 30px;
+        border-width: 2px;
+
+        padding: 10px;
+        gap: 10px;
+
+
+        font-family: Montserrat;
+        font-weight: 600px;
+        font-size: 14px;
+
+        line-height: 100%;
+        letter-spacing: 0%;
+
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+    .pMa-DD {
+        font-family: Montserrat;
+        font-weight: 600px;
+        font-size: 14px;
+
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+
+    div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    img {
+
+
+        object-fit: cover;
+    }
+}
+
+@media(max-width: 932px) {
+    #wrappLogIn-DD {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        /* width: 800px; */
+    }
+
+
+    /* LEFT */
+    #leftL-DD {
+        background-image: url(/public/2-DD.jpeg);
+        background-size: cover;
+        background-position: center;
+        height: 400px;
+    }
+
+    #backBnt-DD {
+        background: none;
+        border: none;
+
+        width: 100px;
+        height: 100px;
+        /* background: #bb5252; */
+    }
+
+    #divForH1-DD {
+        display: flex;
+        justify-content: center;
+
+        margin-top: 170px;
+
+        /* background: #8d8d8d; */
+        height: 70px;
+
+    }
+
+    #titleLogIn-DD {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        width: 400px;
+
+    }
+
+    /* RIGHT */
+    #right-DD {
+        display: flex;
+        align-items: center;
+
+        margin-left: 20px;
+        margin-top: 50px;
+    }
+
+    /*-----------------*/
+
+    #divForText1-DD {
+        width: 350px;
+    }
+
+    .text-DD {
+        font-family: Montserrat;
+        font-weight: 100px;
+
+        line-height: 100%;
+        letter-spacing: 0%;
+        /* direction: ltr; */
+
+        color: #646464;
+    }
+
+    .text2-DD {
+        /* font-family: Montserrat; */
+        font-weight: 400;
+        font-size: 12px;
+
+        line-height: 100%;
+        letter-spacing: 0%;
+
+        text-decoration: underline;
+        text-decoration-style: solid;
+
+        text-decoration-thickness: 0%;
+
+        color: #646464;
+
+        margin-bottom: 40px;
+    }
+
+    /*-----------------*/
+
+    .inp-DD {
+        font-family: "Montserrat", sans-serif;
+        font-optical-sizing: auto;
+        /* font-weight: <weight>; */
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+
+        line-height: 100%;
+        letter-spacing: 0%;
+
+        color: black;
+
+    }
+
+
+
+    .first-DD {
+        width: 428px;
+        height: 50px;
+
+        top: 198px;
+        left: 746px;
+
+        border-radius: 5px;
+        border: 1px solid #646464;
+
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .first-DD:focus {
+        /* border: none; */
+        outline: none;
+    }
+
+    /* --------------------------------- */
+    #pass-DD {
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+        width: 428px;
+        height: 50px;
+
+        top: 198px;
+        left: 746px;
+
+        border-radius: 5px;
+        border: 1px solid #646464;
+    }
+
+    #inputPass-DD {
+        margin-top: -1px;
+        margin-left: -5px;
+
+        font-size: 20px;
+        border: none;
+        outline: none;
+
+        width: 385px;
+        height: 40px;
+    }
+
+    #inputPass-DD:focus {
+        outline: none !important;
+        border: none !important;
+    }
+
+    #buttonPass-DD {
+        border: none;
+        margin-top: -48px;
+        margin-left: 250px;
+    }
+
+    #ies-DD {
+
+        width: 35px;
+        height: 23px;
+    }
+
+    /* --------------------------------- */
+
+    #butforgotPass-DD {
+        text-decoration: underline;
+        color: #646464;
+    }
+
+    #divForBtnForgotPass-DD {
+        margin-bottom: 20px;
+    }
+
+    #saveInfo-DD {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 20px;
+
+        width: 20px;
+        height: 20px;
+
+        border: none;
+    }
+
+
+    /* ------------------------------------- */
+    #divForSaveInfo-DD {
+        /* border: 1px solid black; */
+        flex-direction: row;
+        align-items: center;
+        display: flex;
+        padding-left: 10px;
+        margin-bottom: -40px;
+    }
+
+    #divForCheckbox-DD {
+        /* border: 1px solid blue; */
+
+
+        width: 50px;
+
+    }
+
+    #divForTextSaveInfo-DD {
+        /* border: 1px solid green; */
+        width: 160px;
+    }
+
+    #divForInfo-DD {
+        /* border: 1px solid red; */
+
+        margin-left: 70px;
+
+        width: 20px;
+    }
+
+    /* ------------------------------------- */
+
+    .Akk-DD {
+        width: 428px;
+        height: 50px;
+
+        top: 548px;
+        left: 746px;
+
+        border-radius: 30px;
+        border: none;
+
+        padding: 10px;
+        gap: 10px;
+        background: #000000;
+
+        font-family: Montserrat;
+        font-weight: 600px;
+        font-size: 14px;
+
+        line-height: 100%;
+        letter-spacing: 0%;
+
+        text-align: center;
+        text-transform: uppercase;
+
+        color: white;
+
+        margin-bottom: 50px;
+    }
+
+    .pMa-DD {
+        font-family: Montserrat;
+        font-weight: 600px;
+        font-size: 14px;
+
+        line-height: 100%;
+        letter-spacing: 0%;
+    }
+
+
+    div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    img {
+
+
+        object-fit: cover;
+    }
+}
+
+#buttonPass-DD {
+    border: none;
+    background: none;
+}
+
+#LinkStyle-DD {
+    background: white;
+
+    width: 428px;
+    height: 50px;
+
+    top: 713px;
+    left: 747px;
+
+    border-radius: 30px;
+    border-width: 2px;
+
+    padding: 10px;
+    gap: 10px;
+
+
+    font-family: Montserrat;
+    font-weight: 600px;
+    font-size: 14px;
+
+    line-height: 100%;
+    letter-spacing: 0%;
+
+    text-align: center;
+    text-transform: uppercase;
+
+    border: 1px solid black;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+    color: #000000;
+}
+
+#titleLogIn-DD {
+    text-align: center;
+    text-align: center;
+}

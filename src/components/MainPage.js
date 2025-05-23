@@ -251,7 +251,7 @@ export function MainPage() {
                 </div>
               </div>
             </section>
-            
+
           </main>
 
 
