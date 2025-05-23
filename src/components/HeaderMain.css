@@ -110,87 +110,11 @@ header {
     outline: none;
   }
 
-
-
-
-/* Адаптивность для ширины 428px и меньше */
-/* @media (max-width: 428px) {
-  .strip {
-    width: 100%;
-    word-spacing: 10px;
-    height: 30px;
-  }
-
-  .text {
-    font-size: 14px;
-  }
-
-  header {
-    padding: 10px 0;
-  }
-
-  .header-left,
-  .header-right {
-    padding: 8px 15px;
-    gap: 15px;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-
-  .header-right {
-    margin-left: 0;
-  }
-
-  .action-button,
-  .icon-button {
-    font-size: 10px;
-  }
-
-  .icon-button {
-    font-size: 14px;
-  }
-
-  .user-actions {
-    gap: 10px;
-  }
-
-  .search-bar {
-    max-width: 90%;
-    height: 35px;
-    padding: 0 10px;
-    border-radius: 15px;
-  }
-
-  .search-icon {
-    left: 10px;
-    font-size: 14px;
-  }
-
-  .search-bar input {
-    padding: 6px 6px 6px 30px;
-    font-size: 12px;
-  }
-} */
   
 
 
-
+  /*-------------------АДАПТИВ-------------------*/
 @media (max-width: 428px) {
-
-  /* nav {
-    flex-direction: column;
-    gap: 16px;
-  }
-
-  .header-left,
-  .header-right {
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0;
-    padding: 12px;
-    gap: 20px;
-  } */
-
   .strip{
     transform:translateX(-300px)
   }

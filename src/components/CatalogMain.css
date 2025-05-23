@@ -31,24 +31,22 @@
 
 
 /*--------------------АДАПТИВ-----------------------*/
-
-  /* Адаптивность для ширины 428px и меньше */
 @media (max-width: 428px) {
   .catalog-grid {
-    grid-template-columns: repeat(2, 1fr); /* Одна колонка на мобильных устройствах */
+    grid-template-columns: repeat(2, 1fr); 
     gap: 20px;
   }
 
   .catalog-title {
-    font-size: 11px; /* Немного уменьшен для мобильных */
+    font-size: 11px; 
   }
 
   .catalog-image {
-    max-height: 128px; /* Уменьшен для мобильных экранов */
+    max-height: 128px; 
   }
 
   .catalog-item-title {
-    font-size: 11px; /* Уменьшен для мобильных */
+    font-size: 11px; 
   }
 
 }

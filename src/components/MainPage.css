@@ -1,11 +1,4 @@
-/*-------------------ЦВЕТА-------------------*/
-:root {
-  /* --primary-color: #000000; */
-  /* --secondary-color: #ffffff; */
-  /* --accent-color: #e6f2f2; */
-  /* --text-color: #333333; */
-  /* --background-color: #ffffff; */
-}
+/*-------------------ШРИФТ-------------------*/
 
 .title-section-main {
   font-family: "Montserrat", sans-serif;
@@ -137,10 +130,6 @@ h1 {
 
 /*-------------------ТРИ КАРТОЧКИ КАРТИНКИ-------------------*/
 .product-cards {
-  /* display: flex;
-    gap: 16px;
-    margin-bottom: 24px;
-    flex-wrap: wrap; */
   display: flex;
   justify-content: flex-start;
   margin-bottom: 24px;
@@ -267,6 +256,7 @@ h1 {
 
 
 
+/*-------------------АДАПТИВ-------------------*/
 @media (max-width: 428px) {
   .gallery-grid {
     grid-template-columns: 1fr;
@@ -465,30 +455,7 @@ h1 {
 
 
 
-
-
-
-/*-------------------АДАПТИВ-------------------*/
-/* @media (max-width: 500px) {
-    .content {
-      flex-direction: column;
-    }
-  
-    .right-content {
-      min-height: 300px;
-    }
-  
-    h1 {
-      font-size: 36px;
-    }
-  
-    .product-cards {
-      flex-direction: column;
-    }
-  } */
-
-
-
+  /*-------------------АДАПТИВ-------------------*/
 @media (max-width: 428px) {
 
 
@@ -496,9 +463,7 @@ h1 {
     background-image: url('/public/Rectangle\ 15.png');
     background-repeat: no-repeat;
     background-size: 1900px auto;
-    /* Размер, который тебе подходит */
     background-position: center 1px;
-    /* 20% от ширины */
   }
 
 
@@ -509,9 +474,6 @@ h1 {
 
   .wrap {
     width: 90%;
-    /* padding: 0 16px; */
-    /* transform: none;
-      left: 0; */
   }
 
 
@@ -635,20 +597,6 @@ h1 {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   .info-card {
     flex-direction: column;
     width: 100%;
@@ -660,7 +608,6 @@ h1 {
   .info-card-image img {
     width: 100%;
     height: 500px;
-    /* Увеличиваем высоту изображения */
     object-fit: cover;
   }
 
@@ -694,26 +641,18 @@ h1 {
 
   .image-grid {
     grid-template-columns: 1fr;
-    /* Одна колонка */
     gap: 20px;
   }
 
   .image-wrapper {
     border-radius: 15px;
-    /* width: 100%; */
     height: 100%;
-    /* Одинаковая ширина для всех оберток */
-    /* max-width: 428px; */
-    /* Ограничиваем ширину экрана */
   }
 
   .image-wrapper img {
     width: 100%;
-    /* Все изображения занимают 100% ширины обертки */
     height: auto;
-    /* Высота определяется пропорциями каждого изображения */
     display: block;
-    /* Убеждаемся, что изображение занимает всю ширину */
     object-fit: cover;
   }
 
@@ -722,25 +661,12 @@ h1 {
     top: 15px;
     left: 15px;
     width: 20px;
-    /* Фиксированный размер стрелки */
     height: 20px;
     object-fit: contain;
-    /* Стрелка не искажается */
     z-index: 1;
-    /* Убеждаемся, что стрелка поверх изображения */
   }
 
   .central {
     margin-top: 0;
-    /* Убираем отрицательный отступ */
   }
-
-
-
-
-
-
-
-
-
 }
