@@ -532,6 +532,11 @@
     }
 
 
+    .product-cards {
+      transform: translateX(-100px);
+    }
+
+
    
 
 
