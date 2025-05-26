@@ -1,0 +1,10 @@
+.sadsticker-icon {
+    width: 100px;
+    height: 100px;
+}
+
+.second-backet-section {
+    display: flex;
+    justify-content: center;
+    margin: 150px;
+}
