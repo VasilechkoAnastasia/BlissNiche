@@ -78,7 +78,6 @@ export function MainPage() {
                 <div className="left-content">
                   <h1 className="main-maintext">ВСЕ ДЛЯ ДОМУ</h1>
                   <div className="cta-buttons">
-                    {/* <button className="cta-primary">СТВОРИТИ АКАУНТ ТА ПОЧАТИ!</button> */}
                     <button className="cta-primary"><Link to='/register' style={{ textDecoration: "none", color: "white" }}>СТВОРИТИ АКАУНТ ТА ПОЧАТИ!</Link></button>
                     <button className="cta-secondary">КАТАЛОГ&#9662;</button>
                   </div>
