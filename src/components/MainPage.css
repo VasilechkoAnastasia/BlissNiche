@@ -29,7 +29,8 @@ body {
 }
 
 .app {
-  width: 1921px;
+   /* width: 1921px;  */
+   width: 1920px;
 }
 
 .background-img-main {
