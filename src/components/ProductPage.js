@@ -113,22 +113,22 @@ export function ProductPage() {
 
                         <div className="cards-container-product">
                             <div className="card-product">
-                                <div className="card-icon-product">📏</div>
+                                <div className="card-icon-product"><img src="five-icon-product1.png"></img></div>
                                 <h5>ДОСТАВКА</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur, egestas viverra tempus molestie non.</p>
                             </div>
                             <div className="card-product">
-                                <div className="card-icon-product">💳</div>
+                                <div className="card-icon-product"><img src="five-icon-product2.png"></img></div>
                                 <h5>ОПЛАТА</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur, egestas viverra tempus molestie non.</p>
                             </div>
                             <div className="card-product">
-                                <div className="card-icon-product">📦</div>
+                                <div className="card-icon-product"><img src="five-icon-product3.png"></img></div>
                                 <h5>ОРГАНІЗАЦІЯ</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur, egestas viverra tempus molestie non.</p>
                             </div>
                             <div className="card-product">
-                                <div className="card-icon-product">📋</div>
+                                <div className="card-icon-product"><img src="five-icon-product4.png"></img></div>
                                 <h5>ПЛАНУВАННЯ</h5>
                                 <p>Lorem ipsum dolor sit amet consectetur, egestas viverra tempus molestie non.</p>
                             </div>

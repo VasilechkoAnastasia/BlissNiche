@@ -18,7 +18,7 @@ export function HeaderMain() {
           <div className="header-left">
             <a className="action-button" href="#">☰<br />Меню</a>
             <img src="./Union.png" />
-            <a className="action-button" href="#">Товари</a>
+            <a className="action-button" href="#"><Link to='/product' style={{ textDecoration: "none", color: "#5F5F5F" }}>Товари </Link></a>
             <a className="action-button" href="#"><Link to='/roompage' style={{ textDecoration: "none", color: "#5F5F5F" }}>Кімнати </Link></a>
             <a className="action-button" href="#"><Link to='/design' style={{ textDecoration: "none", color: "#5F5F5F" }}>Дизайн</Link></a>
           </div>

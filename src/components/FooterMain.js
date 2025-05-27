@@ -79,11 +79,11 @@ export function FooterMain() {
 
           <div className="footer-bottom-right">
             <ul className="footer-bottom-links">
-              <li><a href="#link1">Товари</a></li>
-              <li><a href="#link2">Кімнати</a></li>
-              <li><a href="#link3">Дизайн</a></li>
+              <li><a href="/product">Товари</a></li>
+              <li><a href="/roompage">Кімнати</a></li>
+              <li><a href="/design">Дизайн</a></li>
               <li><a href="#link4">Місто</a></li>
-              <li><a href="#link5">Вхід</a></li>
+              <li><a href="/login">Вхід</a></li>
             </ul>
           </div>
         </div>
