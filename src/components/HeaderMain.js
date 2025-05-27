@@ -18,18 +18,15 @@ export function HeaderMain() {
           <div className="header-left">
             <a className="action-button" href="#">☰<br />Меню</a>
             <Link to='/' style={{ textDecoration: "none", color: "#5F5F5F" }}><img src="./Union.png" /></Link>
-            <a className="action-button" href="#"><Link to='/product' style={{ textDecoration: "none", color: "#5F5F5F" }}>Товари </Link></a>
-            <a className="action-button" href="#"><Link to='/roompage' style={{ textDecoration: "none", color: "#5F5F5F" }}>Кімнати </Link></a>
-            <a className="action-button" href="#"><Link to='/design' style={{ textDecoration: "none", color: "#5F5F5F" }}>Дизайн</Link></a>
+            <Link to='/product' className="action-button" style={{ textDecoration: "none", color: "#5F5F5F" }}>Товари </Link>
+            <Link to='/roompage' className="action-button" style={{ textDecoration: "none", color: "#5F5F5F" }}>Кімнати </Link>
+            <Link to='/design' className="action-button" style={{ textDecoration: "none", color: "#5F5F5F" }}>Дизайн</Link>
           </div>
 
           <div className="header-right">
             <a className="action-button" href="#">
               <img src="./uil_user.png" /> Київ
             </a>
-            {/* <a className="action-button" href="#">
-              <img src="./uil_user_profile.png" /> Увійдіть В Систему   
-            </a> */}
 
             <a className="action-button" href="#">
               <img src="./uil_user_profile.png" /> <Link to='/login' style={{ textDecoration: "none", color: "#5F5F5F" }}>Увійдіть В Систему </Link>

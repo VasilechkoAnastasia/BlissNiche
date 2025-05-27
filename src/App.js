@@ -5,9 +5,9 @@ import BacketPage from './components/BacketPage';
 import WishlistPage from './components/WishlistPage';
 import Login from './components/Login';
 import Register from './components/register';
-import Desing from './components/design';
 import IdeasPage from './components/IdeasPage';
 import ProductPage from './components/ProductPage';
+import DesignPage from './components/DesignPage';
 
 function App() {
   return (
@@ -19,9 +19,9 @@ function App() {
         <Route path='/wishlist' element={<WishlistPage />} />
         <Route path='/ideas' element={<IdeasPage />} />
         <Route path='/product' element={<ProductPage />} />
+        <Route path='/design' element={<DesignPage />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
-        <Route path='/design' element={<Desing />} />
       </Routes>
     </BrowserRouter>
   );
