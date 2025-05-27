@@ -145,11 +145,6 @@ export function RoomPage() {
                     </section>
 
 
-                    <section className="four-room-section">
-
-                    </section>
-
-
 
                     <section className="five-room-section">
                         <CatalogMain />

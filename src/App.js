@@ -7,6 +7,7 @@ import Login from './components/Login';
 import Register from './components/register';
 import Desing from './components/design';
 import IdeasPage from './components/IdeasPage';
+import ProductPage from './components/ProductPage';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path='/backetpage' element={<BacketPage />} />
         <Route path='/wishlist' element={<WishlistPage />} />
         <Route path='/ideas' element={<IdeasPage />} />
+        <Route path='/product' element={<ProductPage />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
         <Route path='/design' element={<Desing />} />
