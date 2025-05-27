@@ -9,6 +9,9 @@ import IdeasPage from './components/IdeasPage';
 import ProductPage from './components/ProductPage';
 import DesignPage from './components/DesignPage';
 
+
+
+
 function App() {
   return (
     <BrowserRouter>
