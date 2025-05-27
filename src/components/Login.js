@@ -7,9 +7,7 @@ export default function Login() {
     return (
         <div id="wrappLogIn-DD">
             <div id="leftL-DD">
-                <button id="backBnt-DD">
-                    <img src="backBtn-DD.png" alt="Back" />
-                </button>
+                <Link id='backBnt-DD' to='/'><img src="backBtn-DD.png" alt="" /></Link>
                 <div id="divForH1-DD">
                     <h1 id="titleLogIn-DD">Заповніть вхід до облікового запису</h1>
                 </div>
@@ -18,21 +16,24 @@ export default function Login() {
             <div id="right-DD">
                 <form className="main-DD">
                     <label className="inp-DD">Електронна пошта або мобільний номер:</label> <br />
-                    <input type="text" className="first-DD" /><br />
+                    <input type="text" className="first-DD" />
+                    <br />
                     <div id="divForText1-DD">
-                        <p className="text-DD">
+                        <p id='text-DD'>
                             By entering your mobile number and one-time code sign-in option, <br />
                             you agree to receive a one-time verification code via SMS from IKEA. <br />
                             Message and data rates may apply.
                         </p>
                     </div>
                     <p className="text2-DD">More info about Private Policy</p>
-                    <label className="inp-DD">Пароль:</label> <br />
+                    <label className="inp-DD" id='passLable-DD'>Пароль:</label> <br />
 
                     <div id="pass-DD">
                         <input type="password" id="inputPass-DD" /><br />
                         <button id="buttonPass-DD">
-                            <img src="/Vector-DD.png" alt="Show password" id="ies-DD" />
+                            <div id='divforIesPass-DD'>
+                                <img src="/Vector-DD.png" alt="Show password" id="ies-DD" />
+                            </div>
                         </button>
                     </div>
 
@@ -53,7 +54,6 @@ export default function Login() {
                         </div>
                     </div>
                     <br />
-
                     <button className="Akk-DD">Продовжити</button>
                     <Link id='LinkStyle-DD' to='/register'> Створити аккаунт </Link>
                 </form>

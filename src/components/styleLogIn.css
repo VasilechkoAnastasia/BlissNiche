@@ -10,18 +10,28 @@
         background-size: cover;
         background-position: center;
 
+        margin-left: -444px;
+        margin-right: -600px;
 
-        height: 1050px;
+
+        height: 950px;
         width: 700px;
     }
 
-    #backBnt-DD {
-        background: none;
-        border: none;
+    #text-DD
+    {
+        margin-top: 50px;
 
-        width: 100px;
-        height: 100px;
-        /* background: #bb5252; */
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 12px;
+
+        /* width: 900px; */
+
+        line-height: 100%;
+        letter-spacing: 0%;
+
+        color: #646464;
     }
 
     #divForH1-DD {
@@ -42,7 +52,7 @@
         display: flex;
         align-items: center;
 
-        margin-left: 20px;
+        margin-left: -150px;
     }
 
     /*-----------------*/
@@ -114,12 +124,11 @@
     }
 
     #ies-DD {
-        margin-top: 5px;
-
         width: 35px;
         height: 23px;
-    }
 
+        margin-top: -50px;
+    }
 
     #pass-DD {
         margin-top: 10px;
@@ -216,6 +225,8 @@
         line-height: 100%;
         letter-spacing: 0%;
     }
+
+
 }
 
 @media(min-width: 933px) and (max-width: 1366px) {
@@ -233,15 +244,6 @@
 
         height: 1050px;
         width: 400px;
-    }
-
-    #backBnt-DD {
-        background: none;
-        border: none;
-
-        width: 100px;
-        height: 100px;
-        /* background: #bb5252; */
     }
 
     #divForH1-DD {
@@ -485,15 +487,6 @@
         background-size: cover;
         background-position: center;
         height: 400px;
-    }
-
-    #backBnt-DD {
-        background: none;
-        border: none;
-
-        width: 100px;
-        height: 100px;
-        /* background: #bb5252; */
     }
 
     #divForH1-DD {
@@ -779,4 +772,31 @@
 #titleLogIn-DD {
     text-align: center;
     text-align: center;
+}
+
+#backBnt-DD {
+    background: none;
+    border: none;
+
+    width: 100px;
+    height: 100px;
+
+    margin-left: 50px;
+}
+
+#pass-DD
+{
+    display: flex;
+    justify-content: center;
+}
+#inputPass-DD
+{
+    padding-left: 10px;
+    padding-top: 3px;
+}
+
+.first-DD
+{
+    padding-left: 10px;
+    padding-top: 3px;
 }
