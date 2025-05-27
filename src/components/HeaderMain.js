@@ -1,5 +1,6 @@
 import React from 'react';
 import './HeaderMain.css';
+import HeaderMain from './HeaderMain.js';
 import { Link } from 'react-router-dom';
 
 export function HeaderMain() {
@@ -16,7 +17,7 @@ export function HeaderMain() {
       <div className="user-actions">
         <nav>
           <div className="header-left">
-            <a className="action-button" href="#">☰<br />Меню</a>
+            <a className="action-button" href="#"><img src="./menu-icon.png" style={{ textDecoration: "none", color: "#5F5F5F"}} /><br />Меню</a>
             <Link to='/' style={{ textDecoration: "none", color: "#5F5F5F" }}><img src="./Union.png" /></Link>
             <Link to='/product' className="action-button" style={{ textDecoration: "none", color: "#5F5F5F" }}>Товари </Link>
             <Link to='/roompage' className="action-button" style={{ textDecoration: "none", color: "#5F5F5F" }}>Кімнати </Link>
