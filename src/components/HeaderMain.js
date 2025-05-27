@@ -1,6 +1,5 @@
 import React from 'react';
 import './HeaderMain.css';
-import HeaderMain from './HeaderMain.js';
 import { Link } from 'react-router-dom';
 
 export function HeaderMain() {
