@@ -31,7 +31,7 @@ export function DesignPage() {
                     <div className="wrap">
                         <main>
                             <section className="first-design-section">
-                                <h1 className="main-maintext">СТВОРИ ДИЗАЙН<br></br>СВОЄЇ МРІЇ</h1>
+                                <h1 className="main-maintext-design">СТВОРИ ДИЗАЙН<br></br>СВОЄЇ МРІЇ</h1>
 
 
                                 <div className="info-cards-container-design">
@@ -46,7 +46,7 @@ export function DesignPage() {
                                         <div className="icon-wrapper-design">
                                             <img src="/path-to-icon2.png" className="card-icon-design" />
                                         </div>
-                                        <h3>КОМНАТИ</h3>
+                                        <h3>КІМНАТИ</h3>
                                         <p>habitasse consequat egestas lectus blandit</p>
                                     </div>
                                     <div className="info-card-item-design">
