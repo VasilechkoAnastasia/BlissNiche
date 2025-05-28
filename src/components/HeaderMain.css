@@ -63,6 +63,20 @@ header {
     text-decoration: none;
     color: #5F5F5F;
   }
+
+  .action-button-text {
+    background: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    text-decoration: none;
+    color: #5F5F5F;
+    margin-left: -30px;
+  }
+
+
   
   .icon-button {
     color: #000000;
@@ -113,7 +127,9 @@ header {
   
 
 
-  /*-------------------АДАПТИВ-------------------*/
+/*-------------------АДАПТИВ-------------------*/
+
+
 @media (max-width: 428px) {
   .strip{
     transform:translateX(-300px)
@@ -155,6 +171,29 @@ header {
     gap: 4px;
   }
 
+  .action-button-text {
+    display: none;
+  }
+
+   /* .hamburger-menu {
+    position: absolute;
+    top: 8px;
+    transform: translateX(-40px);
+    z-index: 1000;
+  }   */
+
+  .action-button-text-m {
+    display: none;
+  }
+
+ 
+
+  
+
+  
+
+
+
   .header-left .action-button:nth-child(1) {
     display: flex;
     flex-direction: row;
@@ -162,19 +201,35 @@ header {
     gap: 8px;
   }
 
+  .logo-action-button {
+    transform: translateX(260px);
+    width: 10px;
+  }
+
+  .logo-action-button img{
+    height: 20px;
+  }
+
   .header-left .action-button:not(:nth-child(1)):not(:nth-child(2)) {
     display: none; 
   }
 
   .header-right .action-button:nth-child(1) {
-    display: none; 
+    /* display: none;  */
   }
 
   .header-right .action-button:nth-child(2) {
-    font-size: 12px;
+    /* display: none;  */
+    
   }
 
+
   .header-right .action-button:nth-child(3) {
+    font-size: 12px;
+    
+  }
+
+  .header-right .action-button:nth-child(4) {
     display: flex;
     gap: 12px;
   }
@@ -184,6 +239,6 @@ header {
     height: 20px;
   }
 
-}
+} 
 
   

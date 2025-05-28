@@ -79,7 +79,7 @@ export function MainPage() {
                   <h1 className="main-maintext">ВСЕ ДЛЯ ДОМУ</h1>
                   <div className="cta-buttons">
                     <button className="cta-primary"><Link to='/register' style={{ textDecoration: "none", color: "white" }}>СТВОРИТИ АКАУНТ ТА ПОЧАТИ!</Link></button>
-                    <button className="cta-secondary">КАТАЛОГ&#9662;</button>
+                    <button  className="cta-secondary"><a href="#five-main-section" style={{ textDecoration: "none", color: "black" }}>КАТАЛОГ&#9662;</a></button>
                   </div>
                   <div className="product-cards">
                     {products.map((product) => (
@@ -166,7 +166,7 @@ export function MainPage() {
 
 
 
-            <section className="five-main-section">
+            <section className="five-main-section" id="five-main-section">
               <CatalogMain />
             </section>
 

@@ -1,5 +1,124 @@
 .background-img-design {
-    background-image: url('/public/backgroundDesign.png');
+    background-image: url('/public/backgroundDesign.png'); 
     background-image: 1921px 1026px;
     background-repeat: no-repeat;
   }
+
+  .background-img-design2 {
+    background-image: url('/public/backgroundDesignWhite.png'); 
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+
+
+
+  /* url('/public/backgroundDesignWhite.png') */
+
+  .cards-container-design {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card-design img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  
+  .card-design .title-section-main {
+    padding: 30px;
+    text-align: center;
+    background-color: #F2F2F2;
+    transform: translateY(-60px);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  .info-cards-container-design {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 145px; /* Расстояние между карточками */
+    max-width: 1480px; /* Соответствует ширине .wrap */
+    margin: 0 auto; /* Центрирование */
+  }
+  
+  .info-card-item-design {
+    background-color: rgba(255, 255, 255, 0.9); /* Полупрозрачный белый фон */
+    border-radius: 15px;
+    width: 150px; /* Фиксированная ширина карточки */
+    height: 200px; /* Фиксированная высота карточки */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    padding: 20px;
+  }
+  
+  .icon-wrapper-design {
+    margin-bottom: 15px;
+  }
+  
+  .card-icon-design {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .info-card-item-design h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px 0;
+    color: #000;
+    text-transform: uppercase;
+  }
+  
+  .info-card-item-design p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+  }
+  
+  /* Адаптивность */
+  @media (max-width: 428px) {
+    .info-cards-container-design {
+      flex-direction: column;
+      gap: 15px;
+      padding: 20px;
+    }
+  
+    .info-card-item-design {
+      width: 100%;
+      max-width: 350px;
+      height: 180px;
+    }
+  }
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+  

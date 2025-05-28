@@ -1,6 +1,7 @@
 import React from 'react';
 import './HeaderMain.css';
 import { Link } from 'react-router-dom';
+import BurgerMenu from './BurgerMenu';
 
 export function HeaderMain() {
   return (
@@ -16,8 +17,8 @@ export function HeaderMain() {
       <div className="user-actions">
         <nav>
           <div className="header-left">
-            <a className="action-button" href="#"><img src="./menu-icon.png" style={{ textDecoration: "none", color: "#5F5F5F"}} /><br />Меню</a>
-            <Link to='/' style={{ textDecoration: "none", color: "#5F5F5F" }}><img src="./Union.png" /></Link>
+            <a className="action-button" href="#"><BurgerMenu /><br /><a className="action-button-text-m" style={{ textDecoration: "none", color: "#5F5F5F" }} href="#">Меню</a></a>
+            <Link to='/' className="logo-action-button" style={{ textDecoration: "none", color: "#5F5F5F" }}><img src="./Union.png" /></Link>
             <Link to='/product' className="action-button" style={{ textDecoration: "none", color: "#5F5F5F" }}>Товари </Link>
             <Link to='/roompage' className="action-button" style={{ textDecoration: "none", color: "#5F5F5F" }}>Кімнати </Link>
             <Link to='/design' className="action-button" style={{ textDecoration: "none", color: "#5F5F5F" }}>Дизайн</Link>
@@ -25,15 +26,21 @@ export function HeaderMain() {
 
           <div className="header-right">
             <a className="action-button" href="#">
-              <img src="./uil_user.png" /> Київ
+              <img src="./uil_user.png" /> 
             </a>
-            {/* <a className="action-button" href="#">
-              <img src="./uil_user_profile.png" /> Увійдіть В Систему   
-            </a> */}
+            <a className="action-button-text" href="#">
+              Київ
+            </a>
+            
 
             <a className="action-button" href="#">
-              <img src="./uil_user_profile.png" /> <Link to='/login' style={{ textDecoration: "none", color: "#5F5F5F" }}>Увійдіть В Систему </Link>
+              <img src="./uil_user_profile.png" /> 
             </a>
+            <a className="action-button-text" href="#">
+            <Link to='/login' style={{ textDecoration: "none", color: "#5F5F5F" }}>Увійдіть В Систему </Link>
+            </a>
+
+            
 
 
 

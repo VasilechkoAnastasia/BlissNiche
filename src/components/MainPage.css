@@ -667,4 +667,11 @@ h1 {
   .central {
     margin-top: 0;
   }
+
+
+
+  .promo-text {
+    display: none;
+  }
+
 }
